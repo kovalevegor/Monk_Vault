@@ -1,0 +1,124 @@
+{
+  "hideStrictPathFilters": true,
+  "pinFilters": {
+    "active": true,
+    "tags": [
+      {
+        "name": "",
+        "active": true,
+        "pattern": "",
+        "patternType": "STRICT"
+      }
+    ],
+    "paths": [
+      {
+        "name": "",
+        "active": true,
+        "type": "FILES_AND_DIRECTORIES",
+        "pattern": "",
+        "patternType": "WILDCARD"
+      },
+      {
+        "name": "",
+        "active": true,
+        "type": "DIRECTORIES",
+        "pattern": "Knowledge Den",
+        "patternType": "STRICT"
+      },
+      {
+        "name": "",
+        "active": true,
+        "type": "DIRECTORIES",
+        "pattern": "BIAS_Vault",
+        "patternType": "STRICT"
+      },
+      {
+        "name": "",
+        "active": true,
+        "type": "FILES",
+        "pattern": "Визуальные исследования/Course Info.md",
+        "patternType": "STRICT"
+      },
+      {
+        "name": "",
+        "active": true,
+        "type": "FILES",
+        "pattern": "Personal Game Exp/Games Experience.base",
+        "patternType": "STRICT"
+      },
+      {
+        "name": "",
+        "active": true,
+        "type": "FILES",
+        "pattern": "Books/Books.base",
+        "patternType": "STRICT"
+      },
+      {
+        "name": "",
+        "active": true,
+        "type": "FILES",
+        "pattern": "Game Design/Articles/Game Design Articles.base",
+        "patternType": "STRICT"
+      },
+      {
+        "name": "",
+        "active": true,
+        "type": "FILES",
+        "pattern": "Визуальные исследования/Вечный Образ Юлия Цезаря/Вечный образ Юлия Цезаря.md",
+        "patternType": "STRICT"
+      },
+      {
+        "name": "",
+        "active": true,
+        "type": "FILES",
+        "pattern": "Визуальные исследования/Death Stranding Homo Ludens Анализ/Философия Death Stranding Homo Ludens.md",
+        "patternType": "STRICT"
+      },
+      {
+        "name": "",
+        "active": true,
+        "type": "FILES",
+        "pattern": "PROJECT MAIN INFO.md",
+        "patternType": "STRICT"
+      }
+    ],
+    "frontMatter": [
+      {
+        "name": "",
+        "active": true,
+        "path": "",
+        "pattern": "",
+        "patternType": "STRICT"
+      }
+    ]
+  },
+  "hideFilters": {
+    "active": true,
+    "tags": [
+      {
+        "name": "",
+        "active": true,
+        "pattern": "",
+        "patternType": "STRICT"
+      }
+    ],
+    "paths": [
+      {
+        "name": "",
+        "active": true,
+        "type": "FILES_AND_DIRECTORIES",
+        "pattern": "",
+        "patternType": "WILDCARD"
+      }
+    ],
+    "frontMatter": [
+      {
+        "name": "",
+        "active": true,
+        "path": "",
+        "pattern": "",
+        "patternType": "STRICT"
+      }
+    ]
+  }
+}

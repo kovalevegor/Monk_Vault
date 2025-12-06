@@ -1,0 +1,13 @@
+{
+  "cssTheme": "Black",
+  "theme": "system",
+  "showRibbon": true,
+  "nativeMenus": false,
+  "interfaceFontFamily": "Segoe UI",
+  "textFontFamily": "Segoe UI Variable Display",
+  "monospaceFontFamily": "Ubuntu Mono",
+  "baseFontSize": 17,
+  "accentColor": "",
+  "baseFontSizeAction": true,
+  "showViewHeader": true
+}

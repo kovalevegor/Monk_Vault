@@ -1,0 +1,279 @@
+{
+  "main": {
+    "id": "2fd9614654c858c7",
+    "type": "split",
+    "children": [
+      {
+        "id": "2fce4e753f7e6bd1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "aa0871abcb1fe8b4",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PROJECT MAIN INFO.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "PROJECT MAIN INFO"
+            }
+          },
+          {
+            "id": "a3014d7d4d056917",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Game Concept.md"
+              },
+              "pinned": true,
+              "icon": "excalidraw-icon",
+              "title": "Game Concept"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "cbd45e7cf4f58c08",
+    "type": "split",
+    "children": [
+      {
+        "id": "1fd1c2ebc79a7b14",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dfced69a6d84432c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": true
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Файловый менеджер"
+            }
+          },
+          {
+            "id": "92d46cd20902e5c8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Поиск"
+            }
+          },
+          {
+            "id": "87725dfeede61cec",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Закладки"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 326.5
+  },
+  "right": {
+    "id": "d7f9c94bd0887645",
+    "type": "split",
+    "children": [
+      {
+        "id": "712f8e521bf40622",
+        "type": "tabs",
+        "dimension": 38.585209003215425,
+        "children": [
+          {
+            "id": "58ef8b2f79decc47",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Обратные ссылки"
+            }
+          },
+          {
+            "id": "16a3b67a593785a2",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Essays/Violence among youth.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Исходящие ссылки из Violence among youth"
+            }
+          },
+          {
+            "id": "122aa8615b6b9a14",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Теги"
+            }
+          },
+          {
+            "id": "57018b2eff8b5340",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Unreal Engine C++/Общая Архитектура.md",
+                "followCursor": true,
+                "showSearch": true,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Структура Общая Архитектура"
+            }
+          }
+        ],
+        "currentTab": 2
+      },
+      {
+        "id": "5fde4aca05ac3861",
+        "type": "tabs",
+        "dimension": 30.707395498392287,
+        "children": [
+          {
+            "id": "453db8256952dc62",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Граф"
+            }
+          }
+        ]
+      },
+      {
+        "id": "4af2e60f134e830f",
+        "type": "tabs",
+        "dimension": 30.707395498392287,
+        "children": [
+          {
+            "id": "6f1733f0de591345",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 288.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:Создать новую базу": false,
+      "switcher:Меню быстрого перехода": false,
+      "graph:Граф": false,
+      "canvas:Создать новый холст": false,
+      "daily-notes:Сегодняшняя заметка": false,
+      "templates:Вставить шаблон": false,
+      "command-palette:Открыть палитру команд": false,
+      "markdown-importer:Импорт Markdown-файлов": false,
+      "omnisearch:Omnisearch": false,
+      "obsidian-excalidraw-plugin:Создать новый чертеж": false,
+      "obsidian-kanban:Создать новую доску": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "aa0871abcb1fe8b4",
+  "lastOpenFiles": [
+    "Excalidraw/Game Concept.md",
+    "git-tree.md",
+    "PROJECT MAIN INFO.md",
+    "Gameplay/Gameplay map.md",
+    "Gameplay/Narrative/QTP.md",
+    "Gameplay/Exploration/PLTG.md",
+    "Gameplay/Exploration/D&NC.md",
+    "Excalidraw/Game Concept dark.md",
+    "Excalidraw/Game Concept 1.md",
+    "Excalidraw/Pitch concept.md",
+    "To do task 1.md",
+    "In progress task 1.md",
+    "To do task 2.md",
+    "Безымянная Kanban-доска.md",
+    "Без названия.canvas",
+    "PITCH/Pitch.md",
+    "PITCH/Pasted image 20251025133904.png",
+    "PITCH/Презентация (питч).md",
+    "Pasted image 20251205182426.png",
+    "Pasted image 20251205182416.png",
+    "Pasted image 20251205181917.png",
+    "Визуальные исследования/Death Stranding Homo Ludens Анализ/img/6376af16df35470c931e10266971d072_orig.gif",
+    "Визуальные исследования/Death Stranding Homo Ludens Анализ/img/Не подтвержден 600528.crdownload",
+    "Pasted image 20251205181705.png",
+    "Pasted image 20251205181525.png",
+    "Pasted image 20251205181514.png",
+    "Визуальные исследования/Вечный Образ Юлия Цезаря/Вечный образ Юлия Цезаря.md",
+    "Визуальные исследования/Death Stranding Homo Ludens Анализ/Философия Death Stranding Homo Ludens.md",
+    "Pasted image 20251205181421.png",
+    "Pasted image 20251205181320.png",
+    "Визуальные исследования/Death Stranding Homo Ludens Анализ/img/Не подтвержден 128569.crdownload",
+    "Визуальные исследования/Death Stranding Homo Ludens Анализ/img/Не подтвержден 172559.crdownload",
+    "Визуальные исследования/Death Stranding Homo Ludens Анализ/img/Не подтвержден 908749.crdownload",
+    "Визуальные исследования/Death Stranding Homo Ludens Анализ/img/2025-11-17 15-19-46.mp4",
+    "Game Design/Articles/Environmental Storytelling Методы создания и использования  в видеоиграх.md",
+    "Визуальные исследования/Вечный Образ Юлия Цезаря/ВЕЧНЫЙ ОБРАЗ ЮЛИЯ ЦЕЗАРЯ.md",
+    "Без названия",
+    "Game Design/img",
+    "Теория Искусства/Death Stranding Homo Ludens Анализ/canvas.md",
+    "Теория Искусства/Вечный Образ Юлия Цезаря/Внешний вид и одежда.md",
+    "источники изображений.md",
+    "Теория Искусства/Вечный Образ Юлия Цезаря/Речевые формулы и публичный язык.md",
+    "Теория Искусства/Вечный Образ Юлия Цезаря/img/Не подтвержден 245950.crdownload",
+    "Теория Искусства/Вечный Образ Юлия Цезаря/Закон 25. Сотвори себя заново.md",
+    "Теория Искусства/Вечный Образ Юлия Цезаря/Пропаганда, визуальные медиа и материальная культура.md",
+    "Теория Искусства/Вечный Образ Юлия Цезаря/img/Не подтвержден 393510.crdownload",
+    "Теория Искусства/Вечный Образ Юлия Цезаря/img/Не подтвержден 463342.crdownload",
+    "Knowledge Den/Без названия.canvas"
+  ]
+}
