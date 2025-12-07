@@ -83,7 +83,17 @@
     "exploration": 71,
     "pcg": 72,
     "project": 73,
-    "info": 74
+    "info": 74,
+    "location": 75,
+    "art-direction": 76,
+    "alex": 77,
+    "maria": 78,
+    "engine": 79,
+    "egor": 80,
+    "mechanic": 81,
+    "konstantin": 82,
+    "monk": 83,
+    "masha": 84
   },
   "_version": 3
 }
