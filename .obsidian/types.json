@@ -52,6 +52,9 @@
     "hours_played": "number",
     "cover": "text",
     "release": "date",
-    "sources": "multitext"
+    "sources": "multitext",
+    "developers": "multitext",
+    "deadline": "date",
+    "start": "date"
   }
 }

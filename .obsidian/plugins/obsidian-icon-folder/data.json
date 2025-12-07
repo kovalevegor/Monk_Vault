@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "BoBxTask",
       "RaBleedingEye",
       "LiCalendarX",
       "BoBxCode",
-      "LiArrowRightLeft",
-      "LiNotebookText"
+      "LiArrowRightLeft"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -47,5 +47,9 @@
   "Personal Game Exp": "BoBxMemoryCard",
   "Personal Game Exp/Games Experience.base": "BoBxsData",
   "Game Design/Articles": "LiNotebookText",
-  "Визуальные исследования": "RaBleedingEye"
+  "Визуальные исследования": "RaBleedingEye",
+  "remote-vault/Tasks Board": {
+    "iconName": "BoBxTask",
+    "iconColor": "#d80e0e"
+  }
 }
