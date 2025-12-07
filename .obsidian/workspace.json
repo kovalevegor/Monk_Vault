@@ -4,37 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "2fce4e753f7e6bd1",
+        "id": "169b33db0cea5b8f",
         "type": "tabs",
         "children": [
           {
-            "id": "aa0871abcb1fe8b4",
+            "id": "a0209aa56e9912fc",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PROJECT MAIN INFO.md",
+                "file": "remote-vault/PROJECT MAIN INFO.md",
                 "mode": "source",
                 "source": false
               },
-              "pinned": true,
               "icon": "lucide-file",
               "title": "PROJECT MAIN INFO"
-            }
-          },
-          {
-            "id": "a3014d7d4d056917",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Game Concept.md"
-              },
-              "pinned": true,
-              "icon": "excalidraw-icon",
-              "title": "Game Concept"
             }
           }
         ]
@@ -225,11 +209,40 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "aa0871abcb1fe8b4",
+  "active": "a0209aa56e9912fc",
   "lastOpenFiles": [
+    "remote-vault/PROJECT MAIN INFO.md",
+    "remote-vault/Gameplay/Exploration/PLTG.md",
+    "remote-vault/Gameplay/Narrative/QTP.md",
+    "remote-vault/Gameplay/Exploration/D&NC.md",
+    "remote-vault/Gameplay/Narrative",
+    "remote-vault/Gameplay/Gameplay map.md",
+    "remote-vault/Gameplay/Exploration",
+    "remote-vault/Gameplay",
+    "remote-vault/Excalidraw/Pitch concept.md",
+    "remote-vault/Excalidraw/Game Concept.md",
+    "remote-vault/Excalidraw/Game Concept dark.md",
+    "remote-vault/Excalidraw",
+    "remote-vault/Books/Савченко Алексей-Игра как бизнес.[...]-(Российский компьютерный бестселлер.Геймдизайн)-2020.a6.pdf",
+    "remote-vault/Books",
+    "remote-vault/Attachments/References/References.md",
+    "remote-vault/Attachments/References/Poduction/beffio-studio-the-lost-land-vegetation-beffio.jpg",
+    "remote-vault/Attachments/References/Poduction/beffio-studio-the-lost-land-trees-beffio.jpg",
+    "remote-vault/Attachments/References/Poduction/beffio-studio-the-lost-land-rocks-beffio.jpg",
+    "remote-vault/Attachments/References/Poduction/beffio-studio-the-lost-land-monuments-beffio.jpg",
+    "remote-vault/Attachments/References/Poduction/3d-landscape-999.jpg",
+    "remote-vault/Attachments/References/Poduction/3d-landscape-888.jpg",
+    "remote-vault/Attachments/References/Poduction/3d-landscape-666.jpg",
+    "remote-vault/Attachments/References/Poduction/3d-landscape-444.jpg",
+    "remote-vault/Attachments/References/Poduction/3d-landscape-333.jpg",
+    "remote-vault/Attachments/References/Poduction/3d-landscape-222.jpg",
+    "remote-vault/Attachments/References/Poduction",
+    "remote-vault/Attachments/References/Inspiration",
+    "remote-vault/Attachments/References/Characters",
+    "remote-vault/Attachments/References",
     "Excalidraw/Game Concept.md",
-    "git-tree.md",
     "PROJECT MAIN INFO.md",
+    "git-tree.md",
     "Gameplay/Gameplay map.md",
     "Gameplay/Narrative/QTP.md",
     "Gameplay/Exploration/PLTG.md",
@@ -243,37 +256,8 @@
     "Безымянная Kanban-доска.md",
     "Без названия.canvas",
     "PITCH/Pitch.md",
-    "PITCH/Pasted image 20251025133904.png",
     "PITCH/Презентация (питч).md",
-    "Pasted image 20251205182426.png",
-    "Pasted image 20251205182416.png",
-    "Pasted image 20251205181917.png",
-    "Визуальные исследования/Death Stranding Homo Ludens Анализ/img/6376af16df35470c931e10266971d072_orig.gif",
-    "Визуальные исследования/Death Stranding Homo Ludens Анализ/img/Не подтвержден 600528.crdownload",
-    "Pasted image 20251205181705.png",
-    "Pasted image 20251205181525.png",
-    "Pasted image 20251205181514.png",
     "Визуальные исследования/Вечный Образ Юлия Цезаря/Вечный образ Юлия Цезаря.md",
-    "Визуальные исследования/Death Stranding Homo Ludens Анализ/Философия Death Stranding Homo Ludens.md",
-    "Pasted image 20251205181421.png",
-    "Pasted image 20251205181320.png",
-    "Визуальные исследования/Death Stranding Homo Ludens Анализ/img/Не подтвержден 128569.crdownload",
-    "Визуальные исследования/Death Stranding Homo Ludens Анализ/img/Не подтвержден 172559.crdownload",
-    "Визуальные исследования/Death Stranding Homo Ludens Анализ/img/Не подтвержден 908749.crdownload",
-    "Визуальные исследования/Death Stranding Homo Ludens Анализ/img/2025-11-17 15-19-46.mp4",
-    "Game Design/Articles/Environmental Storytelling Методы создания и использования  в видеоиграх.md",
-    "Визуальные исследования/Вечный Образ Юлия Цезаря/ВЕЧНЫЙ ОБРАЗ ЮЛИЯ ЦЕЗАРЯ.md",
-    "Без названия",
-    "Game Design/img",
-    "Теория Искусства/Death Stranding Homo Ludens Анализ/canvas.md",
-    "Теория Искусства/Вечный Образ Юлия Цезаря/Внешний вид и одежда.md",
-    "источники изображений.md",
-    "Теория Искусства/Вечный Образ Юлия Цезаря/Речевые формулы и публичный язык.md",
-    "Теория Искусства/Вечный Образ Юлия Цезаря/img/Не подтвержден 245950.crdownload",
-    "Теория Искусства/Вечный Образ Юлия Цезаря/Закон 25. Сотвори себя заново.md",
-    "Теория Искусства/Вечный Образ Юлия Цезаря/Пропаганда, визуальные медиа и материальная культура.md",
-    "Теория Искусства/Вечный Образ Юлия Цезаря/img/Не подтвержден 393510.crdownload",
-    "Теория Искусства/Вечный Образ Юлия Цезаря/img/Не подтвержден 463342.crdownload",
     "Knowledge Den/Без названия.canvas"
   ]
 }
