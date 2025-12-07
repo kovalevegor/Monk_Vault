@@ -45,8 +45,7 @@
               "title": "PROJECT MAIN INFO"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -234,11 +233,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2c63782649464db0",
+  "active": "0d2bbf4b380dbc22",
   "lastOpenFiles": [
+    "remote-vault/PROJECT MAIN INFO.md",
     "workspace.md",
     "remote-vault/Tasks Board/Task Board.md",
-    "remote-vault/PROJECT MAIN INFO.md",
     "remote-vault/Gameplay/Gameplay map.md",
     "remote-vault/Tasks Board/To Do/Location Refsboard.md",
     "remote-vault/Tasks Board/To Do/Gameplay Mechanics.md",
