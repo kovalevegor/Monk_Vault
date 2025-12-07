@@ -5,8 +5,6 @@ tags:
   - "#info"
 ---
 
-some changes
-
 
 
 ![[Game Concept|1000]]
