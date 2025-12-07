@@ -44,8 +44,23 @@
               "icon": "lucide-file",
               "title": "PROJECT MAIN INFO"
             }
+          },
+          {
+            "id": "0619a9d601c4a108",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "remote-vault/PROJECT MAIN INFO.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "PROJECT MAIN INFO"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -233,11 +248,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0d2bbf4b380dbc22",
+  "active": "0619a9d601c4a108",
   "lastOpenFiles": [
+    "remote-vault/Tasks Board/Task Board.md",
     "remote-vault/PROJECT MAIN INFO.md",
     "workspace.md",
-    "remote-vault/Tasks Board/Task Board.md",
     "remote-vault/Gameplay/Gameplay map.md",
     "remote-vault/Tasks Board/To Do/Location Refsboard.md",
     "remote-vault/Tasks Board/To Do/Gameplay Mechanics.md",
