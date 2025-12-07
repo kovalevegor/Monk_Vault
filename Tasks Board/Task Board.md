@@ -4,28 +4,45 @@ kanban-plugin: board
 
 ---
 
-## Backlog
+## # Backlog
 
-- [ ] [[Game Design Document]]
-
-
-## To Do
-
-- [ ] ##### 🔴 Protagonist Sketches 
-	[[Protagonist Sketches]]
+- [ ] ##### ⚪Game Design Document
 	
-	#masha #art #monk
+	[[Game Design Document|doc]]
+	
+	#egor #alex #konstantin #maria #masha
 
 
-## In Progress
+## # To Do
+
+- [ ] ##### 🔴Game Animation System & Optimization
+	[[Game Animation System & Optimization|workspace]]
+	
+	#alex #egor
+- [ ] ##### 🔴 Gameplay Mechanics
+	[[Gameplay Mechanics|workspace]]
+	
+	#konstantin#egor
+- [ ] ##### 🔴 Location Refsboard
+	
+	[[Location Refsboard|workspace]]
+	
+	#maria
+
+
+## # In Progress
+
+- [ ] ##### 🟠 Protagonist Sketches 
+	[[Protagonist Sketches|workspace]]
+	
+	#masha
+
+
+## # Completed
 
 
 
-## Completed
-
-
-
-## QA
+## # QA
 
 
 
