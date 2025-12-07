@@ -19,7 +19,7 @@ kanban-plugin: board
 	[[Game Animation System & Optimization|workspace]]
 	
 	#alex #egor
-- [ ] ##### 🔴 Gameplay Mechanics
+- [ ] ##### 🔴 Basic Gameplay Mechanics
 	[[Gameplay Mechanics|workspace]]
 	
 	#konstantin#egor
@@ -38,11 +38,11 @@ kanban-plugin: board
 	#masha
 
 
-## # Completed
-
-
-
 ## # QA
+
+
+
+## # Completed
 
 
 

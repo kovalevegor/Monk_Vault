@@ -20,25 +20,4 @@ tags:
 ## Nepal's Hidden Places You Won't Believe Exist!
 
 
-холст (миро) для визуальных реяеренсов или нарратива
-такс трекер
-гит
-узнать о буддизме 
-
-
-## INDIKA the game ref
-
-**Константин** - придумать механики (walking/world)
-
-**Мария** - собрать атмосферные референсы refboard по локациям 
-
-**Маша** - protagonist sketches 
-
-**Алекс** - создание проекта game animation sample (link) оптимизацией 
- 
-9C282A
-D05112
-F68F30
-EBE175
-90655A
 
