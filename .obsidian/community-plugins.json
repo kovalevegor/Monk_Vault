@@ -22,5 +22,6 @@
   "url-into-selection",
   "obsidian-plugin-toc",
   "templater-obsidian",
-  "obsidian-git"
+  "obsidian-git",
+  "obsidian-image-gallery"
 ]
