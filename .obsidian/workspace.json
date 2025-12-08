@@ -23,17 +23,14 @@
             "id": "cb26725f0b46e961",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Untitled.canvas",
-                "viewState": {
-                  "x": 0,
-                  "y": 0,
-                  "zoom": 0
-                }
+                "file": "PROJECT MAIN INFO.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Untitled"
+              "icon": "lucide-file",
+              "title": "PROJECT MAIN INFO"
             }
           }
         ],
@@ -225,10 +222,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "dfced69a6d84432c",
+  "active": "cb26725f0b46e961",
   "lastOpenFiles": [
-    "Tasks Board/Task Board.md",
     "Untitled.canvas",
+    "Tasks Board/Task Board.md",
     "Tasks Board/Location Refsboard.md",
     "Tasks Board/Game Design Document.md",
     "Tasks Board/Game Animation System & Optimization.md",
@@ -259,7 +256,6 @@
     "Locations Refboard.md",
     "remote-vault/_templates",
     "remote-vault/Gameplay/Exploration/PLTG.md",
-    "remote-vault/Gameplay/Exploration/D&NC.md",
     "remote-vault/Gameplay/Narrative",
     "remote-vault/Gameplay/Exploration",
     "remote-vault/Gameplay",
