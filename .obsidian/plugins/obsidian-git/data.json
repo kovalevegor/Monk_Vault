@@ -1,6 +1,6 @@
 {
   "commitMessage": "backup {{date}}",
-  "autoCommitMessage": "update",
+  "autoCommitMessage": "{{date}} {{hostname}} {{numFiles}}",
   "commitMessageScript": "",
   "commitDateFormat": "DD-MM-YYYY HH:mm:ss",
   "autoSaveInterval": 5,
