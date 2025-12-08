@@ -7,6 +7,7 @@ developers:
   - Masha
 start: 2025-12-07
 deadline: 2026-01-30
+status: Backlog
 tags:
   - gdd
   - alex
