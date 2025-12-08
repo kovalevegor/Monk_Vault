@@ -25,12 +25,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PROJECT MAIN INFO.md",
+                "file": "Gameplay/Exploration/PLTG.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "PROJECT MAIN INFO"
+              "title": "PLTG"
             }
           }
         ],
@@ -224,12 +224,22 @@
   },
   "active": "cb26725f0b46e961",
   "lastOpenFiles": [
+    "Gameplay/Exploration/D&NC.md",
+    "Gameplay/Exploration/PLTG.md",
+    "Excalidraw/Pitch concept.md",
+    "Excalidraw/Game Concept.md",
+    "Attachments/References/Characters/45aff4ed69a30c0d55dd030dd64b670b.jpg",
+    "Attachments/References/Characters/0f53dd6a995459b55342505a7c8cb01a.jpg",
+    "_templates/Task template.md",
+    "Tech/Org/Нейминг конвенция.md",
     "Untitled.canvas",
+    "PROJECT MAIN INFO.md",
+    "Tech/Org",
+    "Tech",
     "Tasks Board/Task Board.md",
     "Tasks Board/Location Refsboard.md",
     "Tasks Board/Game Design Document.md",
     "Tasks Board/Game Animation System & Optimization.md",
-    "PROJECT MAIN INFO.md",
     "remote-vault/Attachments/References/Characters/0f53dd6a995459b55342505a7c8cb01a.jpg",
     "remote-vault/Attachments/References/References.md",
     "remote-vault/Excalidraw/Game Concept dark.md",
@@ -246,22 +256,15 @@
     "remote-vault/PROJECT MAIN INFO.md",
     "remote-vault/Gameplay/Narrative/QTP.md",
     "workspace.md",
-    "remote-vault/Gameplay/Gameplay map.md",
-    "Protagonist.md",
     "remote-vault/Tasks Board/Backlog",
     "remote-vault/Tasks Board/Без названия.canvas",
     "remote-vault/Tasks Board/🔴 To Do",
-    "Добро пожаловать.md",
     "remote-vault/Tasks Board",
-    "Locations Refboard.md",
     "remote-vault/_templates",
-    "remote-vault/Gameplay/Exploration/PLTG.md",
     "remote-vault/Gameplay/Narrative",
     "remote-vault/Gameplay/Exploration",
     "remote-vault/Gameplay",
     "remote-vault/Excalidraw",
-    "remote-vault/Books/Савченко Алексей-Игра как бизнес.[...]-(Российский компьютерный бестселлер.Геймдизайн)-2020.a6.pdf",
-    "remote-vault/Books",
     "remote-vault/Attachments/References/Poduction/beffio-studio-the-lost-land-vegetation-beffio.jpg",
     "remote-vault/Attachments/References/Poduction/beffio-studio-the-lost-land-trees-beffio.jpg",
     "remote-vault/Attachments/References/Poduction/beffio-studio-the-lost-land-rocks-beffio.jpg",
@@ -269,8 +272,6 @@
     "remote-vault/Attachments/References/Poduction/3d-landscape-999.jpg",
     "remote-vault/Attachments/References/Poduction/3d-landscape-888.jpg",
     "remote-vault/Attachments/References/Poduction/3d-landscape-666.jpg",
-    "remote-vault/Attachments/References/Poduction/3d-landscape-444.jpg",
-    "remote-vault/Attachments/References/Poduction/3d-landscape-333.jpg",
     "Без названия.canvas",
     "Knowledge Den/Без названия.canvas"
   ]
