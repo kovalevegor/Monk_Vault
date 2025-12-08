@@ -2,7 +2,7 @@
 developers:
 start:
 deadline:
-Status:
+status:
 tags:
 ---
 ---
@@ -13,3 +13,7 @@ tags:
 
 
 gegegegjks
+
+да, и это должно быть автоматически
+
+фвафвыафафы
