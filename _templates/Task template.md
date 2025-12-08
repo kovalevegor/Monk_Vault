@@ -6,14 +6,6 @@ status:
 tags:
 ---
 ---
-# Task Description here
+# Task Description Here
 
 
-а вот это должно быть автоматическим
-
-
-gegegegjks
-
-да, и это должно быть автоматически
-
-фвафвыафафы
