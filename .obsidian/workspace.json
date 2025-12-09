@@ -12,29 +12,55 @@
             "type": "leaf",
             "pinned": true,
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "kanban",
+              "state": {
+                "file": "remote-vault/Tasks Board/Task Board.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": [
+                    false,
+                    false,
+                    false,
+                    false,
+                    true
+                  ]
+                }
+              },
               "pinned": true,
-              "icon": "lucide-file",
-              "title": "New tab"
+              "icon": "lucide-trello",
+              "title": "Task Board"
             }
           },
           {
-            "id": "cb26725f0b46e961",
+            "id": "7380dddf8dda5c56",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Gameplay/Exploration/PLTG.md",
+                "file": "remote-vault/Tech/Org/Нейминг конвенция.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "PLTG"
+              "title": "Нейминг конвенция"
+            }
+          },
+          {
+            "id": "df1dbb7303269fd3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "remote-vault/Tech/Org/Нейминг конвенция.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Нейминг конвенция"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -57,7 +83,7 @@
                 "autoReveal": true
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "Файловый менеджер"
             }
           },
           {
@@ -74,7 +100,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "Search"
+              "title": "Поиск"
             }
           },
           {
@@ -146,7 +172,7 @@
                 "searchQuery": ""
               },
               "icon": "lucide-tags",
-              "title": "Tags"
+              "title": "Теги"
             }
           },
           {
@@ -179,7 +205,7 @@
               "type": "graph",
               "state": {},
               "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "title": "Граф"
             }
           }
         ]
@@ -207,60 +233,55 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "markdown-importer:Open format converter": false,
-      "bases:Create new base": false,
+      "bases:Создать новую базу": false,
+      "switcher:Меню быстрого перехода": false,
+      "graph:Граф": false,
+      "canvas:Создать новый холст": false,
+      "daily-notes:Сегодняшняя заметка": false,
+      "templates:Вставить шаблон": false,
+      "command-palette:Открыть палитру команд": false,
+      "markdown-importer:Импорт Markdown-файлов": false,
       "omnisearch:Omnisearch": false,
-      "obsidian-excalidraw-plugin:New drawing": false,
-      "obsidian-kanban:Create new board": false,
+      "obsidian-excalidraw-plugin:Создать новый чертеж": false,
+      "obsidian-kanban:Создать новую доску": false,
       "templater-obsidian:Templater": false,
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "cb26725f0b46e961",
+  "active": "df1dbb7303269fd3",
   "lastOpenFiles": [
-    "Gameplay/Exploration/D&NC.md",
-    "Gameplay/Exploration/PLTG.md",
-    "Excalidraw/Pitch concept.md",
-    "Excalidraw/Game Concept.md",
-    "Attachments/References/Characters/45aff4ed69a30c0d55dd030dd64b670b.jpg",
-    "Attachments/References/Characters/0f53dd6a995459b55342505a7c8cb01a.jpg",
-    "_templates/Task template.md",
-    "Tech/Org/Нейминг конвенция.md",
-    "Untitled.canvas",
-    "PROJECT MAIN INFO.md",
-    "Tech/Org",
-    "Tech",
-    "Tasks Board/Task Board.md",
-    "Tasks Board/Location Refsboard.md",
-    "Tasks Board/Game Design Document.md",
-    "Tasks Board/Game Animation System & Optimization.md",
-    "remote-vault/Attachments/References/Characters/0f53dd6a995459b55342505a7c8cb01a.jpg",
+    "remote-vault/Tasks Board/Task Board.md",
+    "remote-vault/Tech/Org/Нейминг конвенция.md",
+    "remote-vault/Untitled.canvas",
+    "remote-vault/Tech/Org",
+    "remote-vault/Tech",
+    "remote-vault/Project Main Info.md",
+    "remote-vault/PROJECT MAIN INFO.md",
     "remote-vault/Attachments/References/References.md",
+    "Инструкция.md",
+    "remote-vault/Attachments/References/Characters/0f53dd6a995459b55342505a7c8cb01a.jpg",
     "remote-vault/Excalidraw/Game Concept dark.md",
     "remote-vault/Excalidraw/Game Concept.md",
     "remote-vault/Excalidraw/Pitch concept.md",
-    "Инструкция.md",
-    "remote-vault/Tasks Board/Task Board.md",
     "remote-vault/_templates/Task template.md",
     "remote-vault/Tasks Board/Game Animation System & Optimization.md",
     "remote-vault/Tasks Board/Game Design Document.md",
     "remote-vault/Tasks Board/Gameplay Mechanics.md",
     "remote-vault/Tasks Board/Location Refsboard.md",
     "remote-vault/Tasks Board/Protagonist Sketches.md",
-    "remote-vault/PROJECT MAIN INFO.md",
     "remote-vault/Gameplay/Narrative/QTP.md",
     "workspace.md",
+    "remote-vault/Gameplay/Gameplay map.md",
+    "Protagonist.md",
     "remote-vault/Tasks Board/Backlog",
     "remote-vault/Tasks Board/Без названия.canvas",
     "remote-vault/Tasks Board/🔴 To Do",
+    "Добро пожаловать.md",
     "remote-vault/Tasks Board",
+    "Locations Refboard.md",
     "remote-vault/_templates",
+    "remote-vault/Gameplay/Exploration/PLTG.md",
+    "remote-vault/Gameplay/Exploration/D&NC.md",
     "remote-vault/Gameplay/Narrative",
     "remote-vault/Gameplay/Exploration",
     "remote-vault/Gameplay",
@@ -272,6 +293,10 @@
     "remote-vault/Attachments/References/Poduction/3d-landscape-999.jpg",
     "remote-vault/Attachments/References/Poduction/3d-landscape-888.jpg",
     "remote-vault/Attachments/References/Poduction/3d-landscape-666.jpg",
+    "remote-vault/Attachments/References/Poduction/3d-landscape-444.jpg",
+    "remote-vault/Attachments/References/Poduction/3d-landscape-333.jpg",
+    "Excalidraw/Game Concept.md",
+    "PROJECT MAIN INFO.md",
     "Без названия.canvas",
     "Knowledge Den/Без названия.canvas"
   ]
