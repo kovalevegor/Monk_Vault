@@ -22,7 +22,7 @@ kanban-plugin: board
 - [ ] ##### 🔴 Basic Gameplay Mechanics
 	[[Gameplay Mechanics|workspace]]
 	
-	#konstantin#egor
+	#konstantin #egor
 - [ ] ##### 🔴 Location Refsboard
 	
 	[[Location Refsboard|workspace]]
@@ -36,6 +36,16 @@ kanban-plugin: board
 	[[Protagonist Sketches|workspace]]
 	
 	#masha
+- [ ] #### 🟠Buddhism Study (History)
+	
+	[[Buddhism Main|workspace]]
+	
+	#egor #polina
+- [ ] #### 🟠Buddhism Study (Individuals)
+	
+	[[Buddhism Main|workspace]]
+	
+	#egor #polina
 
 
 ## # QA
