@@ -1,3 +1,14 @@
 views:
-  - type: table
-    name: Таблица
+  - type: cards
+    name: Cards
+    filters:
+      and:
+        - file.hasTag("movie")
+        - '!file.hasTag("template")'
+    order:
+      - file.name
+      - director
+      - year
+    image: note.cover
+    imageAspectRatio: 1
+    cardSize: 350
