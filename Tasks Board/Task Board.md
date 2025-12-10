@@ -28,11 +28,6 @@ kanban-plugin: board
 	[[Location Refsboard|workspace]]
 	
 	#maria
-- [ ] ##### 🔴 UE Tech Documentation
-	
-	[[Main Tech Document|workspace]]
-	
-	#alex #egor
 
 
 ## # In Progress
@@ -41,6 +36,11 @@ kanban-plugin: board
 	[[Protagonist Sketches|workspace]]
 	
 	#masha
+- [ ] ##### 🟠Tech Documentation
+	
+	[[Main Tech Document|workspace]]
+	
+	#alex #egor
 - [ ] #### 🟠Buddhism Study (History)
 	
 	[[Buddhism Main|workspace]]
