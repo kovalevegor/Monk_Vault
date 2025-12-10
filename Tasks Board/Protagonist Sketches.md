@@ -8,6 +8,7 @@ tags:
   - monk
   - art
   - masha
+  - task
 ---
 ---
 # Task Description here

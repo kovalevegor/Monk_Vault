@@ -1,16 +1,19 @@
 ---
-title: Little Buddha
-year: "1993"
-director: Bernardo Bertolucci
+title:
+year:
+director:
 cover:
+tags:
+  - movie
+  - template
 ---
 ---
 
-# Title
+# About
 Main description
 
 # Narrative
-Scenario and narrative desctiprion
+Scenario and narrative description
 
 # Interesting facts
 Some facts description

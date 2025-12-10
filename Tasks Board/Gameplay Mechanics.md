@@ -8,5 +8,6 @@ tags:
   - mechanic
   - egor
   - konstantin
+  - task
 status: To Do
 ---
