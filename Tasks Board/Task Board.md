@@ -51,6 +51,11 @@ kanban-plugin: board
 	[[Buddhism Main|workspace]]
 	
 	#egor #polina
+- [ ] ##### 🟠 Demo Soundtrack
+	
+	[[Demo Soundtrack|workspace]]
+	
+	#egor
 
 
 ## # QA
