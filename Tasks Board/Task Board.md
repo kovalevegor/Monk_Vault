@@ -28,6 +28,11 @@ kanban-plugin: board
 	[[Location Refsboard|workspace]]
 	
 	#maria
+- [ ] ##### 🔴 UE Tech Documentation
+	
+	[[Main Tech Document|workspace]]
+	
+	#alex #egor
 
 
 ## # In Progress
