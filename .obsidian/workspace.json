@@ -32,33 +32,56 @@
             }
           },
           {
-            "id": "880f537da1f8c3a8",
+            "id": "f9f5baed0ead6c57",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "remote-vault/Buddhism/Main.md",
+                "file": "remote-vault/Buddhism/Individuals/Nagarjuna.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Main"
+              "title": "Nagarjuna"
             }
           },
           {
-            "id": "a0b3505d3259d4c2",
+            "id": "b11c3fbe37c00379",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "kanban",
               "state": {
-                "file": "Excalidraw/Drawing 2025-12-10 11.36.59.excalidraw.md"
+                "file": "remote-vault/Tasks Board/Task Board.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": [
+                    false,
+                    false,
+                    false,
+                    false,
+                    true
+                  ]
+                }
               },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2025-12-10 11.36.59.excalidraw"
+              "icon": "lucide-trello",
+              "title": "Task Board"
+            }
+          },
+          {
+            "id": "93b4ac2138f76452",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "remote-vault/Buddhism/Buddhism Main.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Buddhism Main"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -132,6 +155,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "remote-vault/Tasks Board/Task Board.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +165,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Обратные ссылки"
+              "title": "Обратные ссылки для Task Board"
             }
           },
           {
@@ -150,12 +174,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Essays/Violence among youth.md",
+                "file": "remote-vault/Tasks Board/Task Board.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Исходящие ссылки из Violence among youth"
+              "title": "Исходящие ссылки из Task Board"
             }
           },
           {
@@ -179,13 +203,23 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Unreal Engine C++/Общая Архитектура.md",
-                "followCursor": true,
-                "showSearch": true,
+                "file": "remote-vault/Tasks Board/Task Board.md",
+                "followCursor": false,
+                "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Структура Общая Архитектура"
+              "title": "Структура Task Board"
+            }
+          },
+          {
+            "id": "4e73df8d373149b0",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
@@ -227,7 +261,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 288.5
+    "width": 294.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -246,47 +280,48 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a0b3505d3259d4c2",
+  "active": "0d2bbf4b380dbc22",
   "lastOpenFiles": [
-    "remote-vault/Buddhism/Main.md",
-    "Excalidraw/Drawing 2025-12-10 11.36.59.excalidraw.md",
-    "Excalidraw/Drawing 2025-12-10 11.36.20.excalidraw.md",
-    "Excalidraw",
-    "GITHUB Token.md",
-    "remote-vault/Buddhism",
-    "remote-vault/Untitled.canvas",
-    "отец.md",
+    "remote-vault/Buddhism/Buddhism Main.md",
+    "remote-vault/Tasks Board/Tech Documentation.md",
     "remote-vault/Tasks Board/Task Board.md",
-    "remote-vault/Excalidraw/Game Concept.md",
-    "remote-vault/PROJECT MAIN INFO.md",
-    "remote-vault/Tech/Org/Нейминг конвенция.md",
-    "remote-vault/Gameplay/Narrative/QTP.md",
-    "remote-vault/Gameplay/Exploration/PLTG.md",
-    "remote-vault/Books/Савченко Алексей-Игра как бизнес.[...]-(Российский компьютерный бестселлер.Геймдизайн)-2020.a6.pdf",
-    "remote-vault/Tech/Инструкция.md",
-    "remote-vault/Tech/Org",
-    "remote-vault/Tech",
-    "remote-vault/Project Main Info.md",
-    "remote-vault/Attachments/References/References.md",
+    "remote-vault/Tech/Main Tech Document.md",
+    "remote-vault/Buddhism/Individuals/Nagarjuna.md",
+    "remote-vault/Buddhism/History/Councils and Schisms.md",
+    "remote-vault/Buddhism/Individuals/Bodhisattvas.md",
+    "remote-vault/Buddhism/Individuals/Dalai Lama.md",
+    "remote-vault/Buddhism/Individuals/Avalokiteshvara.md",
+    "remote-vault/Buddhism/Individuals/Amitabha.md",
+    "remote-vault/Buddhism/Bodhidharma.md",
+    "remote-vault/Buddhism/Individuals/Ashoka.md",
+    "remote-vault/Buddhism/Individuals/Buddha - Siddhartha Gautama.md",
+    "remote-vault/Buddhism/Individuals",
+    "remote-vault/Buddhism/Sacred texts/Commentaries.md",
+    "remote-vault/Buddhism/Sacred texts/Tengyur.md",
+    "remote-vault/Buddhism/Sacred texts/Kangyur.md",
+    "remote-vault/Buddhism/Sacred texts/Tibetan Canon.md",
+    "remote-vault/Buddhism/Sacred texts/Lotus Sutra.md",
+    "remote-vault/Buddhism/Sacred texts/Diamond Sutra.md",
+    "remote-vault/Buddhism/Sacred texts/Heart Sutra.md",
+    "remote-vault/Buddhism/Sacred texts/Mahayana Sutras.md",
+    "remote-vault/Buddhism/Sacred texts/Abhidhamma Pitaka.md",
+    "remote-vault/Buddhism/Sacred texts/Vinaya Pitaka.md",
+    "remote-vault/Buddhism/Sacred texts/Sutta Pitaka.md",
+    "remote-vault/Buddhism/Sacred texts/Pali Canon.md",
+    "remote-vault/Buddhism/Sacred texts/Tripitaka.md",
+    "remote-vault/Buddhism/Sacred texts",
+    "remote-vault/Buddhism/Symbols and Artifacts",
+    "remote-vault/Buddhism/Practices",
+    "remote-vault/Buddhism/Schools",
+    "remote-vault/Buddhism/Philosophy/Noble Eightfold Path",
+    "remote-vault/Buddhism/Philosophy",
+    "remote-vault/Buddhism/History",
+    "remote-vault/Movies/Movies.base",
+    "remote-vault/Movies/covers/LittleBuddha.png",
+    "remote-vault/Movies/covers",
+    "remote-vault/Untitled.canvas",
     "remote-vault/Attachments/References/Characters/0f53dd6a995459b55342505a7c8cb01a.jpg",
-    "remote-vault/Excalidraw/Game Concept dark.md",
-    "remote-vault/Excalidraw/Pitch concept.md",
-    "remote-vault/_templates/Task template.md",
-    "remote-vault/Tasks Board/Game Animation System & Optimization.md",
-    "remote-vault/Tasks Board/Game Design Document.md",
-    "remote-vault/Tasks Board/Gameplay Mechanics.md",
-    "remote-vault/Tasks Board/Location Refsboard.md",
-    "remote-vault/Tasks Board/Protagonist Sketches.md",
-    "workspace.md",
-    "remote-vault/Gameplay/Gameplay map.md",
-    "Protagonist.md",
-    "remote-vault/Tasks Board/Backlog",
     "remote-vault/Tasks Board/Без названия.canvas",
-    "remote-vault/Tasks Board/🔴 To Do",
-    "Добро пожаловать.md",
-    "remote-vault/Tasks Board",
-    "remote-vault/_templates",
-    "remote-vault/Gameplay/Narrative",
     "remote-vault/Attachments/References/Poduction/beffio-studio-the-lost-land-vegetation-beffio.jpg",
     "remote-vault/Attachments/References/Poduction/beffio-studio-the-lost-land-trees-beffio.jpg",
     "remote-vault/Attachments/References/Poduction/beffio-studio-the-lost-land-rocks-beffio.jpg",
@@ -295,7 +330,6 @@
     "remote-vault/Attachments/References/Poduction/3d-landscape-888.jpg",
     "remote-vault/Attachments/References/Poduction/3d-landscape-666.jpg",
     "remote-vault/Attachments/References/Poduction/3d-landscape-444.jpg",
-    "remote-vault/Attachments/References/Poduction/3d-landscape-333.jpg",
     "Без названия.canvas",
     "Knowledge Den/Без названия.canvas"
   ]

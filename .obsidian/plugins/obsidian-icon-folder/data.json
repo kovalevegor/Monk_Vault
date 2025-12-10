@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "BoBxsCameraMovie",
       "BoBxTask",
       "RaBleedingEye",
       "LiCalendarX",
-      "BoBxCode",
-      "LiArrowRightLeft"
+      "BoBxCode"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -51,5 +51,6 @@
   "remote-vault/Tasks Board": {
     "iconName": "BoBxTask",
     "iconColor": "#d80e0e"
-  }
+  },
+  "remote-vault/Movies": "BoBxsCameraMovie"
 }
