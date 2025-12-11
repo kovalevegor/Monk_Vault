@@ -11,6 +11,6 @@ tags:
   - task
 ---
 ---
-# Task Description here
+# Task Description
 
 ![[Sketch_1.png]]

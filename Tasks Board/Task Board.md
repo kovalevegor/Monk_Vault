@@ -52,8 +52,11 @@ kanban-plugin: board
 ## ## Completed
 
 **Выполнено**
-- [ ] ##### 🟢 Protagonist Sketches
+- [ ] [ ] ##### 🟢 Protagonist Sketches
 	[[Protagonist Sketches|workspace]]
+	---
+	
+	@{11-12-2025} 
 	
 	#masha
 
