@@ -12,55 +12,29 @@
             "type": "leaf",
             "pinned": true,
             "state": {
-              "type": "kanban",
-              "state": {
-                "file": "remote-vault/Tasks Board/Task Board.md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": [
-                    false,
-                    false,
-                    false,
-                    false,
-                    false
-                  ]
-                }
-              },
+              "type": "empty",
+              "state": {},
               "pinned": true,
-              "icon": "lucide-trello",
-              "title": "Task Board"
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           },
           {
-            "id": "5a48e87c9f462dfd",
+            "id": "cb26725f0b46e961",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "remote-vault/Tasks Board/Protagonist Sketches.md",
+                "file": "Gameplay/Exploration/PLTG.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Protagonist Sketches"
-            }
-          },
-          {
-            "id": "93b4ac2138f76452",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "remote-vault/Tasks Board/Narrative Graph Quest 1.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Narrative Graph Quest 1"
+              "title": "PLTG"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -83,7 +57,7 @@
                 "autoReveal": true
               },
               "icon": "lucide-folder-closed",
-              "title": "Файловый менеджер"
+              "title": "Files"
             }
           },
           {
@@ -100,7 +74,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "Поиск"
+              "title": "Search"
             }
           },
           {
@@ -126,7 +100,7 @@
       {
         "id": "712f8e521bf40622",
         "type": "tabs",
-        "dimension": 43.27202323330106,
+        "dimension": 38.585209003215425,
         "children": [
           {
             "id": "58ef8b2f79decc47",
@@ -134,7 +108,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "remote-vault/Tasks Board/Task Board.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +117,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Обратные ссылки для Task Board"
+              "title": "Обратные ссылки"
             }
           },
           {
@@ -153,12 +126,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "remote-vault/Tasks Board/Task Board.md",
+                "file": "Essays/Violence among youth.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Исходящие ссылки из Task Board"
+              "title": "Исходящие ссылки из Violence among youth"
             }
           },
           {
@@ -173,7 +146,7 @@
                 "searchQuery": ""
               },
               "icon": "lucide-tags",
-              "title": "Теги"
+              "title": "Tags"
             }
           },
           {
@@ -182,41 +155,31 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "remote-vault/Tasks Board/Task Board.md",
-                "followCursor": false,
-                "showSearch": false,
+                "file": "Unreal Engine C++/Общая Архитектура.md",
+                "followCursor": true,
+                "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Структура Task Board"
-            }
-          },
-          {
-            "id": "4e73df8d373149b0",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "title": "Структура Общая Архитектура"
             }
           }
         ],
         "currentTab": 2
       },
       {
-        "id": "7609fc90b01c8755",
+        "id": "5fde4aca05ac3861",
         "type": "tabs",
-        "dimension": 28.84801548886738,
+        "dimension": 30.707395498392287,
         "children": [
           {
-            "id": "5a8a90fee07fb682",
+            "id": "453db8256952dc62",
             "type": "leaf",
             "state": {
               "type": "graph",
               "state": {},
               "icon": "lucide-git-fork",
-              "title": "Граф"
+              "title": "Graph view"
             }
           }
         ]
@@ -224,7 +187,7 @@
       {
         "id": "4af2e60f134e830f",
         "type": "tabs",
-        "dimension": 27.879961277831562,
+        "dimension": 30.707395498392287,
         "children": [
           {
             "id": "6f1733f0de591345",
@@ -240,74 +203,75 @@
       }
     ],
     "direction": "horizontal",
-    "width": 291.5
+    "width": 288.5
   },
   "left-ribbon": {
     "hiddenItems": {
-      "bases:Создать новую базу": false,
-      "switcher:Меню быстрого перехода": false,
-      "graph:Граф": false,
-      "canvas:Создать новый холст": false,
-      "daily-notes:Сегодняшняя заметка": false,
-      "templates:Вставить шаблон": false,
-      "command-palette:Открыть палитру команд": false,
-      "markdown-importer:Импорт Markdown-файлов": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false,
+      "bases:Create new base": false,
       "omnisearch:Omnisearch": false,
-      "obsidian-excalidraw-plugin:Создать новый чертеж": false,
-      "obsidian-kanban:Создать новую доску": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "obsidian-kanban:Create new board": false,
       "templater-obsidian:Templater": false,
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "93b4ac2138f76452",
+  "active": "cb26725f0b46e961",
   "lastOpenFiles": [
-    "remote-vault/Movies/Movies.base",
-    "remote-vault/Tasks Board/Narrative Graph Quest 1.md",
-    "remote-vault/Movies/Самсара.md",
-    "remote-vault/Movies/covers/Samsara.png",
-    "remote-vault/Buddhism/Buddhism Main.md",
-    "Untitled.md",
-    "remote-vault/PROJECT MAIN INFO.md",
-    "remote-vault/Tasks Board/Protagonist Sketches.md",
-    "remote-vault/Tasks Board/Task Board.md",
-    "Main Tech Document.md",
-    "remote-vault/_templates/Task template.md",
-    "remote-vault/Attachments/Characters/Monk Protagonist/Sketch_1.png",
-    "remote-vault/Attachments/Characters/Monk Protagonist",
-    "remote-vault/Attachments/Characters/Protagonist.md",
-    "remote-vault/Attachments/Characters",
-    "GITHUB Token.md",
-    "remote-vault/Tasks Board/Demo Soundtrack.md",
-    "2025-12-09.md",
-    "remote-vault/Tasks Board/Tech Documentation.md",
-    "remote-vault/Movies/Маленький Будда.md",
-    "remote-vault/Buddhism/Schools/Школы буддизма.md",
-    "Без названия.md",
-    "remote-vault/Tech/Инструкция.md",
-    "remote-vault/Tasks Board/Game Design Document.md",
-    "remote-vault/Excalidraw/Buddha.md",
-    "remote-vault/Excalidraw/Game Concept.md",
-    "remote-vault/Movies/Сансара.md",
-    "remote-vault/Buddhism/Individuals/Nagarjuna.md",
-    "remote-vault/Tech/Main Tech Document.md",
-    "remote-vault/Buddhism/History/Councils and Schisms.md",
-    "remote-vault/Buddhism/Individuals",
-    "remote-vault/Buddhism/Sacred texts",
-    "remote-vault/Buddhism/Symbols and Artifacts",
-    "remote-vault/Buddhism/Practices",
-    "remote-vault/Buddhism/Schools",
-    "remote-vault/Buddhism/Philosophy/Noble Eightfold Path",
-    "remote-vault/Buddhism/Philosophy",
-    "remote-vault/Movies/covers/LittleBuddha.png",
-    "remote-vault/Untitled.canvas",
+    "Books/48 Законов Власти.pdf",
+    "Books/Mahabharata_Stories.pdf",
+    "Movies/covers/LittleBuddha.png",
+    "Attachments/Characters/Monk Protagonist/Sketch_1.png",
+    "Books/Rajaji-Mahabharata.pdf",
+    "Movies/covers/Samsara.png",
+    "_templates/Movie Template.md",
+    "Tech/Инструкция.md",
+    "Tasks Board/Tech Documentation.md",
+    "Tasks Board/Narrative Graph Quest 1/Narrative Graph Quest 1.md",
+    "Tasks Board/Narrative Graph Quest 1",
+    "Tasks Board/Demo Soundtrack.md",
+    "Movies/Самсара.md",
+    "Movies/Маленький Будда.md",
+    "Movies/Movies.base",
+    "Movies/covers",
+    "Movies",
+    "Excalidraw/Buddha.md",
+    "Buddhism/Образы.md",
+    "Buddhism/Диалоги (идеи).md",
+    "Buddhism/Schools/Школы буддизма.md",
+    "Buddhism/Sacred texts/Vinaya Pitaka.md",
+    "Buddhism/Sacred texts/Tripitaka.md",
+    "Buddhism/Sacred texts/Tibetan Canon.md",
+    "Buddhism/Sacred texts/Sutta Pitaka.md",
+    "Buddhism/Sacred texts/Tengyur.md",
+    "Buddhism/Sacred texts/Pali Canon.md",
+    "Buddhism/Sacred texts/Mahayana Sutras.md",
+    "Buddhism/Sacred texts/Lotus Sutra.md",
+    "Buddhism/Sacred texts/Heart Sutra.md",
+    "Buddhism/Sacred texts/Kangyur.md",
+    "Buddhism/Sacred texts/Diamond Sutra.md",
+    "Buddhism/Sacred texts/Commentaries.md",
+    "Buddhism/Sacred texts/Abhidhamma Pitaka.md",
+    "Buddhism/Practices/Vipassana.md",
+    "Buddhism/Schools",
+    "Buddhism/Sacred texts",
+    "Buddhism/Practices",
+    "Buddhism/Symbols and Artifacts",
+    "Attachments/References/Characters/45aff4ed69a30c0d55dd030dd64b670b.jpg",
+    "Attachments/References/Characters/0f53dd6a995459b55342505a7c8cb01a.jpg",
+    "Untitled.canvas",
     "remote-vault/Attachments/References/Characters/0f53dd6a995459b55342505a7c8cb01a.jpg",
     "remote-vault/Tasks Board/Без названия.canvas",
     "remote-vault/Attachments/References/Poduction/beffio-studio-the-lost-land-vegetation-beffio.jpg",
     "remote-vault/Attachments/References/Poduction/beffio-studio-the-lost-land-trees-beffio.jpg",
     "remote-vault/Attachments/References/Poduction/beffio-studio-the-lost-land-rocks-beffio.jpg",
     "remote-vault/Attachments/References/Poduction/beffio-studio-the-lost-land-monuments-beffio.jpg",
-    "remote-vault/Attachments/References/Poduction/3d-landscape-999.jpg",
-    "remote-vault/Attachments/References/Poduction/3d-landscape-888.jpg",
     "Без названия.canvas",
     "Knowledge Den/Без названия.canvas"
   ]

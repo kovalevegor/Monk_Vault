@@ -1,67 +1,6 @@
 {
   "cascadeColors": false,
   "colorBackground": false,
-  "palette": [
-    {
-      "id": "ZjtqUdGXdjlGVvwbfi0NP",
-      "name": "Red",
-      "value": "#e5383b"
-    },
-    {
-      "id": "p73VP12dk5EbK3BBKR7EZ",
-      "name": "Blue",
-      "value": "#00a8e8"
-    },
-    {
-      "id": "YWbyPam2CY9uQi5yBANw3",
-      "name": "Azure",
-      "value": "#6fffe9"
-    },
-    {
-      "id": "qYIKimIjVPBle62t_Yfh7",
-      "name": "Honeyed",
-      "value": "#ffd100"
-    },
-    {
-      "id": "vWvTVqQ0KpzF1_wLJGcgY",
-      "name": "Barbie",
-      "value": "#ff206e"
-    },
-    {
-      "id": "ll8yx2K0G5O3ezGC8cngF",
-      "name": "Green",
-      "value": "#16db65"
-    },
-    {
-      "id": "eDu7iFogedf7NKfs_b53m",
-      "name": "Obsidian",
-      "value": "#8a5cf5"
-    }
-  ],
-  "fileColors": [
-    {
-      "path": "remote-vault/Tech/Org/Нейминг конвенция.md",
-      "color": "YWbyPam2CY9uQi5yBANw3"
-    },
-    {
-      "path": "remote-vault/Tasks Board",
-      "color": "ZjtqUdGXdjlGVvwbfi0NP"
-    },
-    {
-      "path": "remote-vault/Buddhism",
-      "color": "qYIKimIjVPBle62t_Yfh7"
-    },
-    {
-      "path": "remote-vault/Movies",
-      "color": "eDu7iFogedf7NKfs_b53m"
-    },
-    {
-      "path": "remote-vault/Tech",
-      "color": "YWbyPam2CY9uQi5yBANw3"
-    },
-    {
-      "path": "remote-vault/Gameplay",
-      "color": "p73VP12dk5EbK3BBKR7EZ"
-    }
-  ]
+  "palette": [],
+  "fileColors": []
 }
