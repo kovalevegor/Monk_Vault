@@ -84,13 +84,6 @@
       {
         "name": "",
         "active": true,
-        "type": "DIRECTORIES",
-        "pattern": "remote-vault/Tasks Board",
-        "patternType": "STRICT"
-      },
-      {
-        "name": "",
-        "active": true,
         "type": "FILES",
         "pattern": "remote-vault/Tasks Board/Task Board.md",
         "patternType": "STRICT"
@@ -107,6 +100,13 @@
         "active": true,
         "type": "FILES",
         "pattern": "remote-vault/PROJECT MAIN INFO.md",
+        "patternType": "STRICT"
+      },
+      {
+        "name": "",
+        "active": true,
+        "type": "DIRECTORIES",
+        "pattern": "remote-vault/Tasks Board",
         "patternType": "STRICT"
       }
     ],

@@ -4,7 +4,7 @@ kanban-plugin: board
 
 ---
 
-## # Backlog
+## ## Backlog
 
 - [ ] ##### ⚪Game Design Document
 	
@@ -13,7 +13,7 @@ kanban-plugin: board
 	#egor #alex #konstantin #maria #masha
 
 
-## # To Do
+## ## To Do
 
 - [ ] ##### 🔴Game Animation System & Optimization
 	[[Game Animation System & Optimization|workspace]]
@@ -30,25 +30,16 @@ kanban-plugin: board
 	#maria
 
 
-## # In Progress
+## ## In Progress
 
-- [ ] ##### 🟠 Protagonist Sketches 
-	[[Protagonist Sketches|workspace]]
-	
-	#masha
 - [ ] ##### 🟠Tech Documentation
 	
-	[[Main Tech Document|workspace]]
+	[[Tech Documentation|workspace]]
 	
 	#alex #egor
-- [ ] #### 🟠Buddhism Study (History)
+- [ ] #### 🟠Narrative Graph Quest 1
 	
-	[[Buddhism Main|workspace]]
-	
-	#egor #polina
-- [ ] #### 🟠Buddhism Study (Individuals)
-	
-	[[Buddhism Main|workspace]]
+	[[Narrative Graph Quest 1|workspace]]
 	
 	#egor #polina
 - [ ] ##### 🟠 Demo Soundtrack
@@ -58,11 +49,17 @@ kanban-plugin: board
 	#egor
 
 
-## # QA
+## ## Completed
+
+**Выполнено**
+- [ ] ##### 🟢Protagonist Sketches
+	@{11-12-2025}
+	[[Protagonist Sketches|workspace]]
+	
+	#masha
 
 
-
-## # Completed
+## ## QA
 
 
 
@@ -70,6 +67,6 @@ kanban-plugin: board
 
 %% kanban:settings
 ```
-{"kanban-plugin":"board","list-collapse":[false,false,false,false,true],"show-checkboxes":true,"new-card-insertion-method":"append","hide-card-count":false,"move-tags":true,"tag-colors":[{"tagKey":"","color":"","backgroundColor":""}],"move-dates":true,"date-format":"DD-MM-YYYY","date-display-format":"DD-MM-YYYY","date-colors":[],"move-task-metadata":true,"show-view-as-markdown":false,"inline-metadata-position":"body","date-picker-week-start":1}
+{"kanban-plugin":"board","list-collapse":[false,false,false,false,false],"show-checkboxes":true,"new-card-insertion-method":"append","hide-card-count":false,"move-tags":true,"tag-colors":[{"tagKey":"","color":"","backgroundColor":""}],"move-dates":true,"date-format":"DD-MM-YYYY","date-display-format":"DD-MM-YYYY","date-colors":[],"move-task-metadata":true,"show-view-as-markdown":false,"inline-metadata-position":"body","date-picker-week-start":1}
 ```
 %%
