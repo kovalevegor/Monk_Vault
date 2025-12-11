@@ -39,7 +39,7 @@ kanban-plugin: board
 	#alex #egor
 - [ ] #### 🟠Narrative Graph Quest 1
 	
-	[[Buddhism Main|workspace]]
+	[[Narrative Graph Quest 1|workspace]]
 	
 	#egor #polina
 - [ ] ##### 🟠 Demo Soundtrack
