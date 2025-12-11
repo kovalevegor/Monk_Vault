@@ -34,7 +34,7 @@ kanban-plugin: board
 
 - [ ] ##### 🟠Tech Documentation
 	
-	[[Main Tech Document|workspace]]
+	[[Tech Documentation|workspace]]
 	
 	#alex #egor
 - [ ] #### 🟠Narrative Graph Quest 1
@@ -52,11 +52,9 @@ kanban-plugin: board
 ## ## Completed
 
 **Выполнено**
-- [ ] [ ] ##### 🟢 Protagonist Sketches
+- [ ] ##### 🟢Protagonist Sketches
+	@{11-12-2025}
 	[[Protagonist Sketches|workspace]]
-	---
-	
-	@{11-12-2025} 
 	
 	#masha
 
