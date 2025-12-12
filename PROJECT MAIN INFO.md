@@ -84,24 +84,7 @@ tags:
 ## Референсы
 
 ### [Ashen](https://store.steampowered.com/app/649950/Ashen/)
-
 ## [Journey](https://store.steampowered.com/app/638230/Journey/)
-
 ## [Dredge](https://store.steampowered.com/app/1562430/DREDGE/)
 
-
-
-чтобы вставить сюда коллаж из картинок, можно воспользоваться такой конструкцией: 
-
-	```img-gallery
-	path: путь к папке с изображениями
-	type: vertical
-	```
-
-чтобы отредактировать штуку ниже, просто поставь курсор на конец этого предложения и опусти его ниже, чтобы проявилась текстовая заготовка. Картинки ниже были для изначальной задумки, пока не удаляй их, буду демонстрировать другим как это выглядит. 
-
-```img-gallery
-path: remote-vault/Attachments/References/Characters
-type: vertical
-```
 
