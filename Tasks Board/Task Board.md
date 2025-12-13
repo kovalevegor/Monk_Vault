@@ -19,15 +19,6 @@ kanban-plugin: board
 	[[Game Animation System & Optimization|workspace]]
 	
 	#alex #egor
-- [ ] ##### 🔴 Basic Gameplay Mechanics
-	[[Gameplay Mechanics|workspace]]
-	
-	#konstantin #egor
-- [ ] ##### 🔴 Location Refsboard
-	
-	[[Location Refsboard|workspace]]
-	
-	#maria
 
 
 ## ## In Progress
@@ -47,6 +38,7 @@ kanban-plugin: board
 	[[Demo Soundtrack|workspace]]
 	
 	#egor
+- [ ] придумать крутые механики для игры за монаха, отличающиеся от игры за европейца
 
 
 ## ## Completed
@@ -57,6 +49,15 @@ kanban-plugin: board
 	[[Protagonist Sketches|workspace]]
 	
 	#masha
+- [ ] ##### 🟢 Location Refsboard
+	
+	[[Location Refsboard|workspace]]
+	
+	#maria
+- [ ] ##### 🟢 Basic Gameplay Mechanics
+	[[Gameplay Mechanics|workspace]]
+	
+	#konstantin #egor
 
 
 ## ## QA
