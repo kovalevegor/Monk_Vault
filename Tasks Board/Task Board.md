@@ -166,19 +166,19 @@ kanban-plugin: board
 
 - [ ] #### Johan base facial concepts
 	#sivak  
-	Deadline → 17.01.2026
+	Deadline → <mark style="background: #FF5582A6;">17.01.2026</mark>
 - [ ] #### Rough POI sketches 
 	initial broad exploration
 	#russkikh  
-	Deadline → 17.01.2026
+	Deadline → <mark style="background: #FF5582A6;">17.01.2026</mark>
 - [ ] #### Quest Ananda rework
 	#egor 
 	#polina  
-	Deadline → 17.01.2026
+	Deadline → <mark style="background: #FF5582A6;">17.01.2026</mark>
 - [ ] #### Retention goals definition
 	#konstantin 
 	#egor  
-	Deadline → 17.01.2026
+	Deadline → <mark style="background: #FF5582A6;">17.01.2026</mark>
 - [ ] #### Migrate current C++ Classes to UE 5.6.1
 	#egor
 	Deadline → <mark style="background: #FF5582A6;">17.01.2026</mark>
