@@ -208,6 +208,6 @@ kanban-plugin: board
 
 %% kanban:settings
 ```
-{"kanban-plugin":"board","list-collapse":[false,false,false,false,false,false],"show-checkboxes":false,"new-card-insertion-method":"append","hide-card-count":false,"move-tags":true,"tag-colors":[{"tagKey":"","color":"","backgroundColor":""}],"move-dates":true,"date-format":"DD-MM-YYYY","date-display-format":"DD-MM-YYYY","date-colors":[],"move-task-metadata":true,"show-view-as-markdown":false,"inline-metadata-position":"body","date-picker-week-start":1,"lane-width":300}
+{"kanban-plugin":"board","list-collapse":[false,false,false,false,true,true],"show-checkboxes":false,"new-card-insertion-method":"append","hide-card-count":false,"move-tags":true,"tag-colors":[{"tagKey":"","color":"","backgroundColor":""}],"move-dates":true,"date-format":"DD-MM-YYYY","date-display-format":"DD-MM-YYYY","date-colors":[],"move-task-metadata":true,"show-view-as-markdown":false,"inline-metadata-position":"body","date-picker-week-start":1,"lane-width":300}
 ```
 %%
