@@ -1,8 +1,6 @@
 ## Working title
 "**Monk**"
 
-туц дыфвлоа
-
 ![[Visual Game Concept|10000]]
 
 ---
