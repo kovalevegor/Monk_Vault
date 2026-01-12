@@ -64,16 +64,17 @@ endGroup
 
 group Retention Mechanics Design Pipeline ( #konstantin #egor Константин, Егор)
 
-2026-01-11 / 2026-01-17: Retention goals definition — target player behaviors, retention intent, and key metrics (D1/D7/D30, session patterns)
-2026-01-18 / 2026-01-24: Psychological drivers selection — mapping retention goals to core motivation drivers and defining exclusions
-2026-01-25 / 2026-01-31: Mechanic ideation — generation of raw retention mechanic ideas without production constraints
-2026-02-01 / 2026-02-07: Mechanic ideation expansion — additional concepts, alternative takes, and stress-testing ideas against game fantasy
-2026-02-08 / 2026-02-14: Selection and clustering — filtering, merging, and structuring mechanics into coherent systems
-2026-02-15 / 2026-02-21: Formalization — detailed design of selected mechanics (triggers, rules, rewards, constraints, frequency)
-2026-02-22 / 2026-02-28: Core and meta loop integration — embedding mechanics into gameplay cycles and long-term progression
-2026-03-01 / 2026-03-07: Logical prototyping — paper prototypes, flow graphs, and spreadsheet simulations of player behavior
-2026-03-08 / 2026-03-14: Iteration and pruning — removing weak mechanics, refining strong ones based on prototype results
-2026-03-15 / 2026-03-21: Implementation readiness — MVP definition, tunable parameters, analytics hooks, and production risks
+2026-01-11 / 2026-01-17: Чтение книг, генерация идей для hook механик
+2026-01-18 / 2026-01-24: Чтение книг, генерация идей для standalone механик
+2026-01-25 / 2026-01-31: Придумывание нарративных механик на основе прочитанного
+2026-02-01 / 2026-02-07: Разработка side-активностей, standalone механик
+2026-02-08 / 2026-02-14: Генерация нарративных механик и их прототипирование
+2026-02-15 / 2026-02-21: Создание и тестирование standalone мини-механик
+2026-02-22 / 2026-02-28: Сбор и структурирование идей для нарративных механик
+2026-03-01 / 2026-03-07: Итерация и улучшение выбранных механик
+2026-03-08 / 2026-03-14: Тестирование взаимодействия нарративных и standalone механик
+2026-03-15 / 2026-03-21: Финализация прототипов, подготовка презентаций для команды
+2026-03-22 / 2026-03-28: Ретроспектива спринтов
 
 endGroup
 

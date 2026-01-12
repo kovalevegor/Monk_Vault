@@ -24,7 +24,7 @@ kanban-plugin: board
 	#egor 
 	#polina  
 	Deadline → 24.01.2026
-- [ ] #### Psychological drivers selection
+- [ ] #### Чтение книг, генерация идей для standalone механик
 	#konstantin 
 	#egor  
 	Deadline → 24.01.2026
@@ -38,7 +38,7 @@ kanban-plugin: board
 - [ ] #### Rough POI sketches — refinement and alternatives
 	#russkikh  
 	Deadline → 31.01.2026
-- [ ] #### Retention mechanic ideation
+- [ ] #### Design нарративных механик на основе прочитанного
 	#konstantin
 	#egor  
 	Deadline → 31.01.2026
@@ -57,7 +57,7 @@ kanban-plugin: board
 	#egor 
 	#polina  
 	Deadline → 07.02.2026
-- [ ] #### Mechanic ideation expansion
+- [ ] #### Разработка side-активностей, standalone механик
 	#konstantin 
 	#egor  
 	Deadline → 07.02.2026
@@ -80,7 +80,7 @@ kanban-plugin: board
 	#egor 
 	#polina  
 	Deadline → 14.02.2026
-- [ ] #### Selection and clustering of mechanics
+- [ ] #### Генерация нарративных механик и их прототипирование
 	#konstantin 
 	#egor  
 	Deadline → 14.02.2026
@@ -95,7 +95,7 @@ kanban-plugin: board
 - [ ] #### Approved POI 02 — detailed concept
 	#russkikh  
 	Deadline → 21.02.2026
-- [ ] #### Mechanics formalization
+- [ ] #### Создание и тестирование standalone мини-механик
 	#konstantin 
 	#egor  
 	Deadline → 21.02.2026
@@ -110,7 +110,7 @@ kanban-plugin: board
 - [ ] #### Approved POI 03 — detailed concept
 	#russkikh  
 	Deadline → 28.02.2026
-- [ ] #### Core and meta loop integration
+- [ ] #### Сбор и структурирование идей для нарративных механик
 	#konstantin 
 	#egor  
 	Deadline → 28.02.2026
@@ -125,7 +125,7 @@ kanban-plugin: board
 - [ ] #### Approved POI 04 — detailed concept
 	#russkikh  
 	Deadline → 07.03.2026
-- [ ] #### Logical prototyping of mechanics
+- [ ] #### Итерация и улучшение выбранных механик
 	#konstantin 
 	#egor  
 	Deadline → 07.03.2026
@@ -137,7 +137,7 @@ kanban-plugin: board
 - [ ] #### Approved POI 05 — detailed concept
 	#russkikh  
 	Deadline → 14.03.2026
-- [ ] #### Iteration and pruning
+- [ ] #### Тестирование взаимодействия нарративных и standalone механик
 	#konstantin
 	#egor  
 	Deadline → 14.03.2026
@@ -146,7 +146,7 @@ kanban-plugin: board
 	#alex
 	Deadline → 14.03.2026
 	[[8. Detailization and microrelief|note]]
-- [ ] #### Implementation readiness
+- [ ] #### Финализация прототипов, подготовка презентаций для команды
 	#konstantin 
 	#egor  
 	Deadline → 21.03.2026
@@ -158,6 +158,11 @@ kanban-plugin: board
 - [ ] #### Final Integration
 	#egor
 	#alex
+	Deadline → 29.03.2026
+	[[10. Final Integration|note]]
+- [ ] #### Ретроспектива спринтов
+	#konstantin 
+	#egor 
 	Deadline → 29.03.2026
 	[[10. Final Integration|note]]
 
@@ -175,7 +180,7 @@ kanban-plugin: board
 	#egor 
 	#polina  
 	Deadline → <mark style="background: #FF5582A6;">17.01.2026</mark>
-- [ ] #### Get inspiration from book quotes
+- [ ] #### Чтение книг, генерация идей для hook механик
 	#konstantin 
 	Deadline → <mark style="background: #FF5582A6;">17.01.2026</mark>
 - [ ] #### Migrate current C++ Classes to UE 5.6.1
@@ -203,6 +208,6 @@ kanban-plugin: board
 
 %% kanban:settings
 ```
-{"kanban-plugin":"board","list-collapse":[false,false,false,false,true,true],"show-checkboxes":false,"new-card-insertion-method":"append","hide-card-count":false,"move-tags":true,"tag-colors":[{"tagKey":"","color":"","backgroundColor":""}],"move-dates":true,"date-format":"DD-MM-YYYY","date-display-format":"DD-MM-YYYY","date-colors":[],"move-task-metadata":true,"show-view-as-markdown":false,"inline-metadata-position":"body","date-picker-week-start":1,"lane-width":300}
+{"kanban-plugin":"board","list-collapse":[false,false,false,false,false,false],"show-checkboxes":false,"new-card-insertion-method":"append","hide-card-count":false,"move-tags":true,"tag-colors":[{"tagKey":"","color":"","backgroundColor":""}],"move-dates":true,"date-format":"DD-MM-YYYY","date-display-format":"DD-MM-YYYY","date-colors":[],"move-task-metadata":true,"show-view-as-markdown":false,"inline-metadata-position":"body","date-picker-week-start":1,"lane-width":300}
 ```
 %%
