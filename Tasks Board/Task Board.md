@@ -193,7 +193,6 @@ kanban-plugin: board
 
 ## ## 🟢Completed
 
-**Выполнено**
 
 
 ## ## 🟡QA
