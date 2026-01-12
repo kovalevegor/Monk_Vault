@@ -1,0 +1,15 @@
+views:
+  - type: cards
+    name: Cards
+    filters:
+      and:
+        - file.hasTag("book")
+        - and:
+            - '!file.hasTag("template")'
+    order:
+      - file.name
+      - author
+      - year
+    image: note.cover
+    cardSize: 270
+    imageAspectRatio: 1.5

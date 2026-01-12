@@ -1,0 +1,96 @@
+	чтобы посмотреть план в виде диаграммы Ганта, 
+	нажмите на иконку списка с отступом в правом
+	верхнем углу экрана (четвертая слева)я
+	чтобы вернуться назад, в той же панели найти
+	и нажать на иконку карандаша
+
+
+2026-01-11 / 2026-03-29: 3 Module
+
+---
+
+group Johan – Character Concept ( #sivak Мария Сивак)
+group Face Concept
+2026-01-11 / 2026-01-17: Base facial concepts
+2026-01-18 / 2026-01-24: Detailing chosen variants
+2026-01-25 / 2026-01-31: Final approved design
+endGroup
+
+group Body & Outfit Concept
+2026-02-01 / 2026-02-07: Base body and outfit concepts
+2026-02-08 / 2026-02-14: Detailing chosen variants
+2026-02-15 / 2026-02-21: Final approved body and outfit design
+endGroup
+group Lowpoly 3D Translation
+2026-02-22 / 2026-02-28: Lowpoly 3D face translation
+2026-03-01 / 2026-03-07: Lowpoly 3D body and outfit translation
+endGroup
+endGroup
+
+---
+
+group Points of Interest – Environment Concept ( #russkikh Мария Русских)
+
+group POI Sketching Phase
+2026-01-11 / 2026-01-17: Rough sketches — broad exploration of multiple POI ideas, compositions, and moods
+2026-01-18 / 2026-01-24: Rough sketches — additional POI variants, expanding visual range and themes
+2026-01-25 / 2026-01-31: Rough sketches — refinement of the strongest sketch ideas and new alternatives
+2026-02-01 / 2026-02-07: Rough sketches — final batch for selection, consolidation of best POI directions
+endGroup
+group Approved POI Concepts
+2026-02-08 / 2026-02-14: Approved POI 01 — detailed concept development
+2026-02-15 / 2026-02-21: Approved POI 02 — detailed concept development
+2026-02-22 / 2026-02-28: Approved POI 03 — detailed concept development
+2026-03-01 / 2026-03-07: Approved POI 04 — detailed concept development
+2026-03-08 / 2026-03-14: Approved POI 05 — detailed concept development
+endGroup
+endGroup
+
+---
+
+group Quest Design & Narrative ( #polina #egor Полина, Егор)
+
+2026-01-11 / 2026-01-17: Quest Ananda rework — structure, objectives, pacing, and narrative beats
+2026-01-18 / 2026-01-24: Quest Sonam rework — structure, objectives, pacing, and narrative beats
+2026-01-25 / 2026-02-07: Quest 03 creation — concept, narrative, mechanics, and full quest flow
+
+group Implementation & Backstory
+2026-02-08 / 2026-02-14: Quests implementation in Unreal Engine Flow Graph plugin
+2026-02-08 / 2026-02-14: Protagonist (Johan) backstory development — history, motivation, and narrative context
+endGroup
+endGroup
+
+---
+
+group Retention Mechanics Design Pipeline ( #konstantin #egor Константин, Егор)
+
+2026-01-11 / 2026-01-17: Retention goals definition — target player behaviors, retention intent, and key metrics (D1/D7/D30, session patterns)
+2026-01-18 / 2026-01-24: Psychological drivers selection — mapping retention goals to core motivation drivers and defining exclusions
+2026-01-25 / 2026-01-31: Mechanic ideation — generation of raw retention mechanic ideas without production constraints
+2026-02-01 / 2026-02-07: Mechanic ideation expansion — additional concepts, alternative takes, and stress-testing ideas against game fantasy
+2026-02-08 / 2026-02-14: Selection and clustering — filtering, merging, and structuring mechanics into coherent systems
+2026-02-15 / 2026-02-21: Formalization — detailed design of selected mechanics (triggers, rules, rewards, constraints, frequency)
+2026-02-22 / 2026-02-28: Core and meta loop integration — embedding mechanics into gameplay cycles and long-term progression
+2026-03-01 / 2026-03-07: Logical prototyping — paper prototypes, flow graphs, and spreadsheet simulations of player behavior
+2026-03-08 / 2026-03-14: Iteration and pruning — removing weak mechanics, refining strong ones based on prototype results
+2026-03-15 / 2026-03-21: Implementation readiness — MVP definition, tunable parameters, analytics hooks, and production risks
+
+endGroup
+
+---
+
+group Procedural Location Generation( #egor #alex Егор)
+
+2026-01-11 / 2026-01-17: Migrate current C++ Classes to UE 5.6.1
+2026-01-18 / 2026-01-24: Geomorphology research
+2026-01-25 / 2026-01-31: Prototype of basic terrain generation
+2026-02-01 / 2026-02-07: Hydrology and erosion
+2026-02-08 / 2026-02-14: Geological features
+2026-02-15 / 2026-02-21: Climate zones and biomes
+2026-02-22 / 2026-02-28: POI graph integration with the terrain
+2026-03-01 / 2026-03-07: Path and trail generation
+2026-03-08 / 2026-03-14: Detailization and microrelief
+2026-03-15 / 2026-03-21: Optimization and polishing
+2026-03-22 / 2026-03-29: Integration
+
+endGroup
