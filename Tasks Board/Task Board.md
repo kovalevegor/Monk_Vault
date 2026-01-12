@@ -175,9 +175,8 @@ kanban-plugin: board
 	#egor 
 	#polina  
 	Deadline → <mark style="background: #FF5582A6;">17.01.2026</mark>
-- [ ] #### Retention goals definition
+- [ ] #### Get inspiration from book quotes
 	#konstantin 
-	#egor  
 	Deadline → <mark style="background: #FF5582A6;">17.01.2026</mark>
 - [ ] #### Migrate current C++ Classes to UE 5.6.1
 	#egor
