@@ -1,5 +1,5 @@
 
-#russkikh 
+[[russkikh]] 
 [Monk](https://pin.it/5n77a5XIp)
 [Journey](https://pin.it/5rB58iGuv)
 [Abzu](https://pin.it/SChB0ued9)
@@ -12,11 +12,11 @@
 
 ---
 
-#sivak 
+[[sivak]] 
 [Monk](https://pin.it/5wpCngQiz)
 
 ---
 
-#egor 
+[[egor]] 
 [Monk](https://pin.it/6puCOD8bF)
 
