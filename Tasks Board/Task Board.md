@@ -13,9 +13,12 @@ kanban-plugin: board
 
 ## ## 🔴To Do
 
+- [ ] #### Johan base facial concepts
+	#sivak  
+	Deadline → <mark style="background: [[FF5582A6]];">24.01.2026</mark>
 - [ ] #### Detailing chosen facial variants
 	#sivak  
-	Deadline → 24.01.2026
+	Deadline → 31.01.2026
 - [ ] #### Rough POI sketches 
 	expanding visual range
 	#russkikh  
@@ -34,7 +37,7 @@ kanban-plugin: board
 	[[1. Geomorphology research|note]]
 - [ ] #### Final approved face design
 	#sivak  
-	Deadline → 31.01.2026
+	Deadline → 07.02.2026
 - [ ] #### Rough POI sketches — refinement and alternatives
 	#russkikh  
 	Deadline → 31.01.2026
@@ -49,7 +52,7 @@ kanban-plugin: board
 	[[2. Prototype of basic terrain generation|note]]
 - [ ] #### Base body and outfit concepts
 	#sivak  
-	Deadline → 07.02.2026
+	Deadline → 14.02.2026
 - [ ] #### Rough POI sketches — final batch for selection
 	#russkikh  
 	Deadline → 07.02.2026
@@ -68,7 +71,7 @@ kanban-plugin: board
 	[[3. Hydrology and erosion|note]]
 - [ ] #### Detailing chosen body and outfit variants
 	#sivak  
-	Deadline → 14.02.2026
+	Deadline → 21.02.2026
 - [ ] #### Approved POI 01 — detailed concept
 	#russkikh  
 	Deadline → 14.02.2026
@@ -91,7 +94,7 @@ kanban-plugin: board
 	[[4. Geological features|note]]
 - [ ] #### Final approved body and outfit design
 	#sivak  
-	Deadline → 21.02.2026
+	Deadline → 28.02.2026
 - [ ] #### Approved POI 02 — detailed concept
 	#russkikh  
 	Deadline → 21.02.2026
@@ -106,7 +109,7 @@ kanban-plugin: board
 	[[5. Climate zones and biomes|note]]
 - [ ] #### Lowpoly 3D face translation
 	#sivak  
-	Deadline → 28.02.2026
+	Deadline → 06.03.2026
 - [ ] #### Approved POI 03 — detailed concept
 	#russkikh  
 	Deadline → 28.02.2026
@@ -121,7 +124,7 @@ kanban-plugin: board
 	[[6. POI graph integration with the terrain|note]]
 - [ ] #### Lowpoly 3D body and outfit translation
 	#sivak  
-	Deadline → 07.03.2026
+	Deadline → 13.03.2026
 - [ ] #### Approved POI 04 — detailed concept
 	#russkikh  
 	Deadline → 07.03.2026
@@ -169,7 +172,7 @@ kanban-plugin: board
 
 ## ## 🟠 In Progress
 
-- [ ] #### Johan base facial concepts
+- [ ] #### Determine style
 	#sivak  
 	Deadline → <mark style="background: [[FF5582A6]];">17.01.2026</mark>
 - [ ] #### Rough POI sketches 
