@@ -8,7 +8,8 @@ kanban-plugin: board
 
 - [ ] #### Props for PCG
 	#alex
-	Deadline → <mark style="background: [[FF5582A6]];">25.01.2026</mark>
+- [ ] #### Soundtrack 
+	#egor
 
 
 ## ## 🔴To Do
@@ -172,14 +173,18 @@ kanban-plugin: board
 
 ## ## 🟠 In Progress
 
-- [ ] #### Determine style
+- [ ] #### Determine protagonist style
 	#sivak  
 	Deadline → <mark style="background: [[FF5582A6]];">17.01.2026</mark>
 - [ ] #### Rough POI sketches 
 	initial broad exploration
 	#russkikh  
 	Deadline → <mark style="background: [[FF5582A6]];">17.01.2026</mark>
-- [ ] #### Quest Ananda rework
+
+
+## ## 🟢Completed
+
+- [ ] #### Проработка предыстории протагониста
 	#egor 
 	#polina  
 	Deadline → <mark style="background: [[FF5582A6]];">17.01.2026</mark>
@@ -189,13 +194,6 @@ kanban-plugin: board
 - [ ] #### Migrate current C++ Classes to UE 5.6.1
 	#egor
 	Deadline → <mark style="background: [[FF5582A6]];">17.01.2026</mark>
-- [ ] #### Soundtrack 
-	#egor
-	Deadline → <mark style="background: [[BBFABBA6]];">01.02.2026</mark>
-
-
-## ## 🟢Completed
-
 
 
 ## ## 🟡QA
