@@ -7,6 +7,8 @@
 [Inside](https://pin.it/2CcpRP1Pn)
 [Waterfall](https://pin.it/5wpCngQiz)
 
+[Monk 2](https://pin.it/78ADbUJiK)
+
 ![[monk.png]]
 ![[european.png]]
 
