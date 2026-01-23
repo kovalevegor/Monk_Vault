@@ -1,6 +1,7 @@
 ## Working title
 "**Monk**"
 test Maria Russkikh edits
+and some from Egor
 ![[Visual Game Concept|10000]]
 
 ---
