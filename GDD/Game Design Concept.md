@@ -1,6 +1,6 @@
 ## Working title
 "**Monk**"
-![[Visual Game Concept|10000]]
+![[Game Design Concept - Visual Game Concept|10000]]
 
 ---
 ## Concept statement
