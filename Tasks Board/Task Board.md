@@ -152,15 +152,15 @@ kanban-plugin: board
 	Deadline → 07.02.2026
 - [ ] #### Landscape POIs displaysment
 	#egor
-	Deadline → 31.01.2026
+	Deadline → 01.02.2026
 	[[1. Geomorphology research|note]]
 - [ ] #### Base body sketches
 	#sivak  
-	Deadline → 31.01.2026
+	Deadline → 01.02.2026
 - [ ] #### Total game mechs loops
 	#konstantin 
 	#egor  
-	Deadline → 24.01.2026
+	Deadline → 01.02.2026
 - [ ] #### Determine protagonist style
 	#sivak  
 	Deadline → <mark style="background: #FF5582A6;">17.01.2026</mark>
@@ -168,11 +168,15 @@ kanban-plugin: board
 	initial broad exploration
 	#russkikh  
 	#egor 
-	Deadline → <mark style="background: [[FF5582A6]];">31.01.2026</mark>
+	Deadline → <mark style="background: [[FF5582A6]];">01.02.2026</mark>
 
 
 ## ## 🟢Completed
 
+- [ ] #### Johan base facial concepts
+	#sivak  
+	Deadline → <mark style="background: [[FF5582A6]];">24.01.2026</mark>
+	![[Johan_base_face_sketches.jpg]]
 - [ ] #### Tibet monastery mood board
 	initial broad exploration
 	#russkikh  
@@ -187,9 +191,6 @@ kanban-plugin: board
 	expanding visual range
 	#russkikh  
 	Deadline → 24.01.2026
-- [ ] #### Johan base facial concepts
-	#sivak  
-	Deadline → <mark style="background: [[FF5582A6]];">24.01.2026</mark>
 - [ ] #### Проработка предыстории протагониста
 	#egor 
 	#polina  
