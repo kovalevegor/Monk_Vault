@@ -14,28 +14,6 @@ kanban-plugin: board
 
 ## ## 🔴To Do
 
-- [ ] #### Johan base facial concepts
-	#sivak  
-	Deadline → <mark style="background: [[FF5582A6]];">24.01.2026</mark>
-- [ ] #### Detailing chosen facial variants
-	#sivak  
-	Deadline → 31.01.2026
-- [ ] #### Rough POI sketches 
-	expanding visual range
-	#russkikh  
-	Deadline → 24.01.2026
-- [ ] #### Quest Sonam rework
-	#egor 
-	#polina  
-	Deadline → 24.01.2026
-- [ ] #### Чтение книг, генерация идей для standalone механик
-	#konstantin 
-	#egor  
-	Deadline → 24.01.2026
-- [ ] #### Geomorphology research
-	#egor
-	Deadline → 24.01.2026
-	[[1. Geomorphology research|note]]
 - [ ] #### Final approved face design
 	#sivak  
 	Deadline → 07.02.2026
@@ -46,11 +24,6 @@ kanban-plugin: board
 	#konstantin
 	#egor  
 	Deadline → 31.01.2026
-- [ ] #### Prototype of basic terrain generation
-	#egor
-	#alex 
-	Deadline → 31.01.2026
-	[[2. Prototype of basic terrain generation|note]]
 - [ ] #### Base body and outfit concepts
 	#sivak  
 	Deadline → 14.02.2026
@@ -173,17 +146,50 @@ kanban-plugin: board
 
 ## ## 🟠 In Progress
 
+- [ ] #### Quest system rework
+	#egor 
+	#polina  
+	Deadline → 07.02.2026
+- [ ] #### Landscape POIs displaysment
+	#egor
+	Deadline → 31.01.2026
+	[[1. Geomorphology research|note]]
+- [ ] #### Base body sketches
+	#sivak  
+	Deadline → 31.01.2026
+- [ ] #### Total game mechs loops
+	#konstantin 
+	#egor  
+	Deadline → 24.01.2026
 - [ ] #### Determine protagonist style
 	#sivak  
-	Deadline → <mark style="background: [[FF5582A6]];">17.01.2026</mark>
-- [ ] #### Rough POI sketches 
+	Deadline → <mark style="background: #FF5582A6;">17.01.2026</mark>
+- [ ] #### Tibet monastery base sketches
 	initial broad exploration
 	#russkikh  
-	Deadline → <mark style="background: [[FF5582A6]];">17.01.2026</mark>
+	#egor 
+	Deadline → <mark style="background: [[FF5582A6]];">31.01.2026</mark>
 
 
 ## ## 🟢Completed
 
+- [ ] #### Tibet monastery mood board
+	initial broad exploration
+	#russkikh  
+	#egor 
+	Deadline → <mark style="background: [[FF5582A6]];">27.01.2026</mark>
+- [ ] #### Develop POIs distribution algorithm 
+	#egor
+	#alex 
+	Deadline → 31.01.2026
+	[[2. Prototype of basic terrain generation|note]]
+- [ ] #### Rough POI sketches 
+	expanding visual range
+	#russkikh  
+	Deadline → 24.01.2026
+- [ ] #### Johan base facial concepts
+	#sivak  
+	Deadline → <mark style="background: [[FF5582A6]];">24.01.2026</mark>
 - [ ] #### Проработка предыстории протагониста
 	#egor 
 	#polina  
