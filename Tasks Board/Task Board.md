@@ -20,10 +20,6 @@ kanban-plugin: board
 - [ ] #### Rough POI sketches — refinement and alternatives
 	#russkikh  
 	Deadline → 31.01.2026
-- [ ] #### Design нарративных механик на основе прочитанного
-	#konstantin
-	#egor  
-	Deadline → 31.01.2026
 - [ ] #### Base body and outfit concepts
 	#sivak  
 	Deadline → 14.02.2026
@@ -61,11 +57,6 @@ kanban-plugin: board
 	#konstantin 
 	#egor  
 	Deadline → 14.02.2026
-- [ ] #### Geological features
-	#egor
-	#alex 
-	Deadline → 14.02.2026
-	[[4. Geological features|note]]
 - [ ] #### Final approved body and outfit design
 	#sivak  
 	Deadline → 28.02.2026
@@ -146,24 +137,32 @@ kanban-plugin: board
 
 ## ## 🟠 In Progress
 
+- [ ] #### Оптимизация травы
+	#egor
+	#alex 
+	Deadline → 14.02.2026
+	[[4. Geological features|note]]
+- [ ] #### Доработка механик
+	#konstantin 
+	Deadline → 08.02.2026
 - [ ] #### Base body sketches and some face rafactor
 	#sivak  
 	Deadline → 08.02.2026
-- [ ] #### Total game mechs loops
-	#konstantin 
-	#egor  
-	Deadline → 01.02.2026
 - [ ] #### Determine protagonist style
 	#sivak  
 	Deadline → <mark style="background: #FF5582A6;">17.01.2026</mark>
 - [ ] #### Tibet monastery base sketches
 	initial broad exploration
 	#russkikh  
-	Deadline → <mark style="background: [[FF5582A6]];">01.02.2026</mark>
+	Deadline → <mark style="background: [[FF5582A6]];">08.02.2026</mark>
 
 
 ## ## 🟢Completed
 
+- [ ] #### Total game mechs loops
+	#konstantin 
+	#egor  
+	Deadline → 01.02.2026
 - [ ] #### Quest system rework
 	#egor 
 	#polina  
