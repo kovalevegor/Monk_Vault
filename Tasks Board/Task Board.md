@@ -146,13 +146,9 @@ kanban-plugin: board
 
 ## ## 🟠 In Progress
 
-- [ ] #### Quest system rework
-	#egor 
-	#polina  
-	Deadline → 07.02.2026
-- [ ] #### Base body sketches
+- [ ] #### Base body sketches and some face rafactor
 	#sivak  
-	Deadline → 01.02.2026
+	Deadline → 08.02.2026
 - [ ] #### Total game mechs loops
 	#konstantin 
 	#egor  
@@ -168,6 +164,10 @@ kanban-plugin: board
 
 ## ## 🟢Completed
 
+- [ ] #### Quest system rework
+	#egor 
+	#polina  
+	Deadline → 07.02.2026
 - [ ] #### Develop POIs distribution algorithm 
 	#egor
 	#alex 
