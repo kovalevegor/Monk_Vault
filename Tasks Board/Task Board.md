@@ -8,6 +8,8 @@ kanban-plugin: board
 
 - [ ] #### Props for PCG
 	#alex
+- [ ] #### Determine protagonist style
+	#sivak
 - [ ] #### Soundtrack 
 	#egor
 
@@ -48,10 +50,6 @@ kanban-plugin: board
 - [ ] #### Quests implementation in Unreal Engine Flow Graph
 	#egor 
 	#alex 
-	Deadline → 14.02.2026
-- [ ] #### Protagonist (Johan) backstory development
-	#egor 
-	#polina  
 	Deadline → 14.02.2026
 - [ ] #### Генерация нарративных механик и их прототипирование
 	#konstantin 
@@ -137,10 +135,11 @@ kanban-plugin: board
 
 ## ## 🟠 In Progress
 
-- [ ] #### Оптимизация травы
-	#egor
+- [ ] #### Проработка Quest Line 1
+	#egor 
+	#polina
+- [ ] #### Environment ART 
 	#alex 
-	Deadline → 14.02.2026
 	[[4. Geological features|note]]
 - [ ] #### Доработка механик
 	#konstantin 
@@ -148,9 +147,6 @@ kanban-plugin: board
 - [ ] #### Base body sketches and some face rafactor
 	#sivak  
 	Deadline → 08.02.2026
-- [ ] #### Determine protagonist style
-	#sivak  
-	Deadline → <mark style="background: #FF5582A6;">17.01.2026</mark>
 - [ ] #### Tibet monastery base sketches
 	initial broad exploration
 	#russkikh  
