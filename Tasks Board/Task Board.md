@@ -150,15 +150,6 @@ kanban-plugin: board
 	#egor 
 	#polina  
 	Deadline → 07.02.2026
-- [ ] #### Develop POIs distribution algorithm 
-	#egor
-	#alex 
-	Deadline → 31.01.2026
-	[[2. Prototype of basic terrain generation|note]]
-- [ ] #### Landscape POIs displaysment
-	#egor
-	Deadline → 01.02.2026
-	[[1. Geomorphology research|note]]
 - [ ] #### Base body sketches
 	#sivak  
 	Deadline → 01.02.2026
@@ -177,6 +168,11 @@ kanban-plugin: board
 
 ## ## 🟢Completed
 
+- [ ] #### Develop POIs distribution algorithm 
+	#egor
+	#alex 
+	Deadline → 31.01.2026
+	[[2. Prototype of basic terrain generation|note]]
 - [ ] #### Johan base facial concepts
 	#sivak  
 	Deadline → <mark style="background: [[FF5582A6]];">24.01.2026</mark>
