@@ -143,7 +143,7 @@ kanban-plugin: board
 - [ ] #### Проработка арки протагониста
 	#polina 
 	#egor
-- [ ] #### Environment ART 
+- [ ] #### Fooliage art  
 	#alex
 - [ ] #### Проработка механики медитации
 	#konstantin 
