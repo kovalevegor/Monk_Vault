@@ -138,10 +138,14 @@ kanban-plugin: board
 - [ ] #### Проработка Quest Line 1
 	#egor 
 	#polina
+- [ ] #### Проработка сценария
+	#egor
+- [ ] #### Проработка арки протагониста
+	#polina 
+	#egor
 - [ ] #### Environment ART 
-	#alex 
-	[[4. Geological features|note]]
-- [ ] #### Доработка механик
+	#alex
+- [ ] #### Проработка механики медитации
 	#konstantin 
 	Deadline → 08.02.2026
 - [ ] #### Base body sketches and some face rafactor
@@ -155,6 +159,9 @@ kanban-plugin: board
 
 ## ## 🟢Completed
 
+- [ ] #### Доработка механик
+	#konstantin 
+	Deadline → 08.02.2026
 - [ ] #### Total game mechs loops
 	#konstantin 
 	#egor  
