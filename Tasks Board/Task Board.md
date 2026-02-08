@@ -147,10 +147,10 @@ kanban-plugin: board
 	#alex
 - [ ] #### Проработка механики медитации
 	#konstantin 
-	Deadline → 08.02.2026
+	Deadline → 15.02.2026
 - [ ] #### Base body sketches and some face rafactor
 	#sivak  
-	Deadline → 08.02.2026
+	Deadline → 15.02.2026
 - [ ] #### Tibet monastery base sketches
 	initial broad exploration
 	#russkikh  
@@ -161,6 +161,9 @@ kanban-plugin: board
 
 - [ ] #### Доработка механик
 	#konstantin 
+	Deadline → 08.02.2026
+- [ ] #### Цветокоррекция портрета протагониста
+	#sivak 
 	Deadline → 08.02.2026
 - [ ] #### Total game mechs loops
 	#konstantin 
