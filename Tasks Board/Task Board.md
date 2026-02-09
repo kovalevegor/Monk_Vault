@@ -161,13 +161,15 @@ kanban-plugin: board
 - [ ] #### Tibet monastery POI base sketches
 	initial broad exploration
 	#russkikh  
-	Deadline → <mark style="background: [[FF5582A6]];">08.02.2026</mark>
+	Deadline → 08.02.2026
+	![[Tibet_Monastery_POI - sketch 1.png]]
 - [ ] #### Доработка механик
 	#konstantin 
 	Deadline → 08.02.2026
 - [ ] #### Цветокоррекция портрета протагониста. Рефактор костной структуры
 	#sivak 
 	Deadline → 08.02.2026
+	![[Johan_base_face_colored.jpg]]
 - [ ] #### Total game mechs loops
 	#konstantin 
 	#egor  
