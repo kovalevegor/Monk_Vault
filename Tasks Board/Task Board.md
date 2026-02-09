@@ -145,24 +145,27 @@ kanban-plugin: board
 	#egor
 - [ ] #### Fooliage art  
 	#alex
+- [ ] #### Проработка архитектуры монастыря
+	#russkikh  
+	Deadline → 01.01.2026
 - [ ] #### Проработка механики медитации
 	#konstantin 
 	Deadline → 15.02.2026
 - [ ] #### Base body sketches and some face rafactor
 	#sivak  
 	Deadline → 15.02.2026
-- [ ] #### Tibet monastery base sketches
-	initial broad exploration
-	#russkikh  
-	Deadline → <mark style="background: [[FF5582A6]];">08.02.2026</mark>
 
 
 ## ## 🟢Completed
 
+- [ ] #### Tibet monastery POI base sketches
+	initial broad exploration
+	#russkikh  
+	Deadline → <mark style="background: [[FF5582A6]];">08.02.2026</mark>
 - [ ] #### Доработка механик
 	#konstantin 
 	Deadline → 08.02.2026
-- [ ] #### Цветокоррекция портрета протагониста
+- [ ] #### Цветокоррекция портрета протагониста. Рефактор костной структуры
 	#sivak 
 	Deadline → 08.02.2026
 - [ ] #### Total game mechs loops
