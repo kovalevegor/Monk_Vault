@@ -151,7 +151,7 @@ kanban-plugin: board
 - [ ] #### Проработка механики медитации
 	#konstantin 
 	Deadline → 15.02.2026
-- [ ] #### Base body sketches and some face rafactor
+- [ ] #### Base body sketches 
 	#sivak  
 	Deadline → 15.02.2026
 
