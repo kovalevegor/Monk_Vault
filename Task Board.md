@@ -16,12 +16,6 @@ kanban-plugin: board
 
 ## ## 🔴To Do
 
-- [ ] ##### Level-Design по концепту монастыря
-	#alex
-	
-	> Формирование базового landscape и дизайна уровня
-	
-	❗Deadline → 01.03.2026
 - [ ] ##### Проработка пути игрока
 	#alex
 	
@@ -101,6 +95,12 @@ kanban-plugin: board
 
 ## ## 🟠 In Progress
 
+- [ ] ##### Level-Design по концепту монастыря
+	#alex
+	
+	> Формирование базового landscape и дизайна уровня
+	
+	❗Deadline → 01.03.2026
 - [ ] #### Проработка Quest Line 1
 	#egor 
 	#polina
