@@ -60,12 +60,6 @@ kanban-plugin: board
 	> Написание и формализация квеста в  Twine
 	
 	❗Deadline → 15.03.2026
-- [ ] ##### Телосложение протагониста
-	#sivak
-	> Создание концепт-артов фигуры героя
-	> Разработка телесных отличительных особенностей
-	
-	❗Deadline → 01.03.2026
 - [ ] ##### Дизайн одежды
 	#sivak
 	> Создание концепт-артов стартового комплекта одежды
@@ -101,26 +95,23 @@ kanban-plugin: board
 	> Формирование базового landscape и дизайна уровня
 	
 	❗Deadline → 01.03.2026
-- [ ] #### Проработка Quest Line 1
-	#egor 
-	#polina
 - [ ] #### Проработка сценария
 	#egor
-- [ ] #### Fooliage art  
-	#alex
 - [ ] #### Проработка архитектуры монастыря
 	#russkikh  
 	Deadline → 01.01.2026
-- [ ] #### Проработка механики медитации
-	#konstantin 
-	Deadline → 15.02.2026
-- [ ] #### Base body sketches 
-	#sivak  
-	Deadline → 15.02.2026
+- [ ] ##### Телосложение протагониста
+	#sivak
+	> Создание концепт-артов фигуры героя
+	> Разработка телесных отличительных особенностей
+	
+	❗Deadline → 01.03.2026
 
 
 ## ## 🟢Completed
 
+- [ ] #### Fooliage art  
+	#alex
 - [ ] #### Tibet monastery POI base sketches
 	initial broad exploration
 	#russkikh  
