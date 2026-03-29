@@ -28,6 +28,13 @@ kanban-plugin: board
 	<mark style="background: #FF5582A6;">HIGH</mark>
 	
 	❗Deadline → 31.05.2026
+- [ ] ##### Финализация нательных узоров героя
+	#sivak
+	> Проработка выбранного паттерна нательных тату протагониста
+	
+	<mark style="background: #FF5582A6;">HIGH</mark>
+	
+	❗Deadline → 26.04.2026
 - [ ] ##### Сеты одежды
 	#sivak
 	> Создание 5 сетов одеяния героя включая:
@@ -62,6 +69,13 @@ kanban-plugin: board
 	<mark style="background: #FF5582A6;">HIGH</mark>
 	
 	❗Deadline → 26.04.2026
+- [ ] ##### 3D модель протагониста
+	#alex 
+	> Моделирование трехмерной модели героя, включая телосложение и портрет
+	
+	<mark style="background: #FF5582A6;">HIGH</mark>
+	
+	❗Deadline → 31.05.2026
 
 
 ## ## 🟠 In Progress
