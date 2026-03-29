@@ -61,7 +61,7 @@ kanban-plugin: board
 	
 	<mark style="background: #FFB86CA6;">MEDIUM</mark>
 	
-	❗Deadline → 03.05.2026
+	❗Deadline → 31.05.2026
 - [ ] ##### Полишинг левел-дизайна
 	#alex 
 	> Проработка опциональных маршрутов игрока на локации “Монастырь”
@@ -76,14 +76,6 @@ kanban-plugin: board
 	<mark style="background: #FF5582A6;">HIGH</mark>
 	
 	❗Deadline → 31.05.2026
-- [ ] ##### Декорирование окружения
-	#alex 
-	> Создание процедурных пропсов для локации “Монастырь”
-	> Houdini
-	
-	<mark style="background: #BBFABBA6;">LOW</mark>
-	
-	❗Deadline → 21.06.2026
 - [ ] ##### Проработка персонажей 
 	#egor 
 	#polina 
@@ -93,6 +85,21 @@ kanban-plugin: board
 	<mark style="background: #FF5582A6;">HIGH</mark>
 	
 	❗Deadline → 21.06.2026
+- [ ] ##### Декорирование окружения
+	#alex 
+	> Создание процедурных пропсов для локации “Монастырь”
+	> Houdini
+	
+	<mark style="background: #BBFABBA6;">LOW</mark>
+	
+	❗Deadline → 21.06.2026
+- [ ] ##### Скульптинг портрета протагониста
+	#russkikh 
+	> Создание трехмерной модели головы протагониста
+	
+	<mark style="background: #FF5582A6;">HIGH</mark>
+	
+	❗Deadline → 26.04.2026
 
 
 ## ## 🟠 In Progress
