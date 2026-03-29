@@ -76,16 +76,27 @@ kanban-plugin: board
 	<mark style="background: #FF5582A6;">HIGH</mark>
 	
 	❗Deadline → 31.05.2026
+- [ ] ##### Декорирование окружения
+	#alex 
+	> Создание процедурных пропсов для локации “Монастырь”
+	> Houdini
+	
+	<mark style="background: #BBFABBA6;">LOW</mark>
+	
+	❗Deadline → 21.06.2026
+- [ ] ##### Проработка персонажей 
+	#egor 
+	#polina 
+	> 1. Создание и проработка 3 персонажей из разных квестовых цепочек для локации “Монастырь” 
+	> 2. Проработка тематики локации “Монастырь”
+	
+	<mark style="background: #FF5582A6;">HIGH</mark>
+	
+	❗Deadline → 21.06.2026
 
 
 ## ## 🟠 In Progress
 
-- [ ] ##### Телосложение протагониста
-	#sivak
-	> Создание концепт-артов фигуры героя
-	> Разработка телесных отличительных особенностей
-	
-	❗Deadline → 01.03.2026
 
 
 ## ## 🟢Completed
@@ -146,6 +157,6 @@ kanban-plugin: board
 
 %% kanban:settings
 ```
-{"kanban-plugin":"board","list-collapse":[false,false,false,false],"show-checkboxes":false,"new-card-insertion-method":"append","hide-card-count":false,"move-tags":true,"tag-colors":[{"tagKey":"","color":"","backgroundColor":""}],"move-dates":true,"date-format":"DD-MM-YYYY","date-display-format":"DD-MM-YYYY","date-colors":[],"move-task-metadata":true,"show-view-as-markdown":false,"inline-metadata-position":"body","date-picker-week-start":1,"lane-width":300}
+{"kanban-plugin":"board","list-collapse":[false,false,true,false],"show-checkboxes":false,"new-card-insertion-method":"append","hide-card-count":false,"move-tags":true,"tag-colors":[{"tagKey":"","color":"","backgroundColor":""}],"move-dates":true,"date-format":"DD-MM-YYYY","date-display-format":"DD-MM-YYYY","date-colors":[],"move-task-metadata":true,"show-view-as-markdown":false,"inline-metadata-position":"body","date-picker-week-start":1,"lane-width":400,"full-list-lane-width":true}
 ```
 %%
