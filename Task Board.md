@@ -18,7 +18,36 @@ kanban-plugin: board
 	#sivak
 	> Создание 3-5 концептов нательных изображений (см. тз) 
 	
+	<mark style="background: #FF5582A6;">HIGH</mark>
+	
 	❗Deadline → 05.04.2026
+- [ ] ##### Чертеж для 3D модели протагониста
+	#sivak
+	> Создать model sheet протагониста для моделирования в 3D
+	
+	<mark style="background: #FF5582A6;">HIGH</mark>
+	
+	❗Deadline → 31.05.2026
+- [ ] ##### Сеты одежды
+	#sivak
+	> Создание 5 сетов одеяния героя включая:
+	> 1. Обноски
+	> 2. на локации Монастырь
+	> 3. на локации Город
+	> 4. на локации Деревня
+	> 5. секретный (собираемый по разным тайникам)
+	
+	<mark style="background: #FFF3A3A6;">MEDIUM</mark>
+	
+	❗Deadline → 21.06.2026
+- [ ] ##### Текстура тату протагониста
+	#sivak
+	#ales
+	> Создать model sheet протагониста для моделирования в 3D
+	
+	<mark style="background: #FF5582A6;">HIGH</mark>
+	
+	❗Deadline → 31.05.2026
 
 
 ## ## 🟠 In Progress
