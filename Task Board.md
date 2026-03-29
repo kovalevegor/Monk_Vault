@@ -37,17 +37,31 @@ kanban-plugin: board
 	> 4. на локации Деревня
 	> 5. секретный (собираемый по разным тайникам)
 	
-	<mark style="background: #FFF3A3A6;">MEDIUM</mark>
+	<mark style="background: #FFB86CA6;">MEDIUM</mark>
 	
 	❗Deadline → 21.06.2026
 - [ ] ##### Текстура тату протагониста
 	#sivak
-	#ales
-	> Создать model sheet протагониста для моделирования в 3D
+	#alex
+	> Перенос утвержденного концепта телесных тату протагониста на 3D модель 
+	
+	<mark style="background: #FFB86CA6;">MEDIUM</mark>
+	
+	❗Deadline → 31.05.2026
+- [ ] ##### Скетчи Point of View 
+	#russkikh 
+	> Создание 5 рисунков атмосферного окружения на локации “Монастырь” с определенных для игрока ракурсов
+	
+	<mark style="background: #FFB86CA6;">MEDIUM</mark>
+	
+	❗Deadline → 03.05.2026
+- [ ] ##### Полишинг левел-дизайна
+	#alex 
+	> Проработка опциональных маршрутов игрока на локации “Монастырь”
 	
 	<mark style="background: #FF5582A6;">HIGH</mark>
 	
-	❗Deadline → 31.05.2026
+	❗Deadline → 26.04.2026
 
 
 ## ## 🟠 In Progress
