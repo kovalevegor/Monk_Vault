@@ -21,13 +21,6 @@ kanban-plugin: board
 	<mark style="background: #FF5582A6;">HIGH</mark>
 	
 	❗Deadline → 05.04.2026
-- [ ] ##### Чертеж для 3D модели протагониста
-	#sivak
-	> Создать model sheet протагониста для моделирования в 3D
-	
-	<mark style="background: #FF5582A6;">HIGH</mark>
-	
-	❗Deadline → 31.05.2026
 - [ ] ##### Финализация нательных узоров героя
 	#sivak
 	> Проработка выбранного паттерна нательных тату протагониста
@@ -35,6 +28,21 @@ kanban-plugin: board
 	<mark style="background: #FF5582A6;">HIGH</mark>
 	
 	❗Deadline → 26.04.2026
+- [ ] ##### Чертеж для 3D модели протагониста
+	#sivak
+	> Создать model sheet протагониста для моделирования в 3D
+	
+	<mark style="background: #FF5582A6;">HIGH</mark>
+	
+	❗Deadline → 31.05.2026
+- [ ] ##### Текстура тату протагониста
+	#sivak
+	#alex
+	> Перенос утвержденного концепта телесных тату протагониста на 3D модель 
+	
+	<mark style="background: #FFB86CA6;">MEDIUM</mark>
+	
+	❗Deadline → 31.05.2026
 - [ ] ##### Сеты одежды
 	#sivak
 	> Создание 5 сетов одеяния героя включая:
@@ -47,14 +55,6 @@ kanban-plugin: board
 	<mark style="background: #FFB86CA6;">MEDIUM</mark>
 	
 	❗Deadline → 21.06.2026
-- [ ] ##### Текстура тату протагониста
-	#sivak
-	#alex
-	> Перенос утвержденного концепта телесных тату протагониста на 3D модель 
-	
-	<mark style="background: #FFB86CA6;">MEDIUM</mark>
-	
-	❗Deadline → 31.05.2026
 - [ ] ##### Скетчи Point of View 
 	#russkikh 
 	> Создание 5 рисунков атмосферного окружения на локации “Монастырь” с определенных для игрока ракурсов
