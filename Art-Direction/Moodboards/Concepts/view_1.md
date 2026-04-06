@@ -78,9 +78,9 @@ A23937 ^A3gYgo9y
 ## Embedded Files
 8199f36db5fa27b6ec23cae8539dc11c5ccd85e0: [[Pasted Image 20260320215937_950.png]]
 
-2ce9e72c0f7d3cde327dccd7ca281823359edfa8: [[066.jpg]]
+2ce9e72c0f7d3cde327dccd7ca281823359edfa8: [[066 1.jpg]]
 
-c64db5a02e6a54b26fe531405d29e7fc0995317e: [[077.jpg]]
+c64db5a02e6a54b26fe531405d29e7fc0995317e: [[077 1.jpg]]
 
 809a426f06cf80d95282629092abcb0db5040afb: [[082.jpg]]
 
