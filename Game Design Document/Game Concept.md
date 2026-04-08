@@ -6,6 +6,7 @@ Indie game project.
 + Low-poly stylized 3D 
 
 ---
+
 ![[1. Управляющая идея]]
 
 ---
