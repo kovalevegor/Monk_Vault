@@ -14,9 +14,37 @@ kanban-plugin: board
 
 ## ## 🔴To Do
 
+- [ ] ##### Скульптинг портрета протагониста
+	#russkikh 
+	> Создание трехмерной модели головы протагониста
+	
+	<mark style="background: #FF5582A6;">HIGH</mark>
+	
+	❗Deadline → 26.04.2026
+- [ ] ##### Полишинг левел-дизайна
+	#alex 
+	> Проработка опциональных маршрутов игрока на локации “Монастырь”
+	
+	<mark style="background: #FF5582A6;">HIGH</mark>
+	
+	❗Deadline → 26.04.2026
 - [ ] ##### Чертеж для 3D модели протагониста
 	#sivak
 	> Создать model sheet протагониста для моделирования в 3D
+	
+	<mark style="background: #FF5582A6;">HIGH</mark>
+	
+	❗Deadline → 31.05.2026
+- [ ] ##### Скетчи Point of View 
+	#russkikh 
+	> Создание 5 рисунков атмосферного окружения на локации “Монастырь” с определенных для игрока ракурсов
+	
+	<mark style="background: #FFB86CA6;">MEDIUM</mark>
+	
+	❗Deadline → 31.05.2026
+- [ ] ##### 3D модель протагониста
+	#alex 
+	> Моделирование трехмерной модели героя, включая телосложение и портрет
 	
 	<mark style="background: #FF5582A6;">HIGH</mark>
 	
@@ -33,27 +61,6 @@ kanban-plugin: board
 	<mark style="background: #FFB86CA6;">MEDIUM</mark>
 	
 	❗Deadline → 21.06.2026
-- [ ] ##### Скетчи Point of View 
-	#russkikh 
-	> Создание 5 рисунков атмосферного окружения на локации “Монастырь” с определенных для игрока ракурсов
-	
-	<mark style="background: #FFB86CA6;">MEDIUM</mark>
-	
-	❗Deadline → 31.05.2026
-- [ ] ##### Полишинг левел-дизайна
-	#alex 
-	> Проработка опциональных маршрутов игрока на локации “Монастырь”
-	
-	<mark style="background: #FF5582A6;">HIGH</mark>
-	
-	❗Deadline → 26.04.2026
-- [ ] ##### 3D модель протагониста
-	#alex 
-	> Моделирование трехмерной модели героя, включая телосложение и портрет
-	
-	<mark style="background: #FF5582A6;">HIGH</mark>
-	
-	❗Deadline → 31.05.2026
 - [ ] ##### Проработка персонажей 
 	#egor 
 	#polina 
@@ -71,13 +78,6 @@ kanban-plugin: board
 	<mark style="background: #BBFABBA6;">LOW</mark>
 	
 	❗Deadline → 21.06.2026
-- [ ] ##### Скульптинг портрета протагониста
-	#russkikh 
-	> Создание трехмерной модели головы протагониста
-	
-	<mark style="background: #FF5582A6;">HIGH</mark>
-	
-	❗Deadline → 26.04.2026
 
 
 ## ## 🟠 In Progress
