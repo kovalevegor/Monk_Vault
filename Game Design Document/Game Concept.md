@@ -1,7 +1,6 @@
 ## Характеристики
 
-Indie game project. 
-+ Жанр: narrative-adventure
++ Жанр: narrative-adventure/приключение-метафора
 + Target platform: PC
 + Low-poly stylized 3D 
 
