@@ -1,0 +1,884 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>КВЕСТ: Клык Ньяна — Схема</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=IM+Fell+English:ital@0;1&display=swap');
+
+  :root {
+    --bg: #0a0a0f;
+    --bg2: #0f0f1a;
+    --surface: #13131f;
+    --border: #2a2a3f;
+    --gold: #c9a84c;
+    --gold-dim: #7a6030;
+    --text: #d0cfc0;
+    --text-dim: #7a7870;
+    --absorb: #1a3a4a;
+    --absorb-border: #2a7a9a;
+    --absorb-text: #7ecfe8;
+    --action: #15152a;
+    --action-border: #3a3a6a;
+    --action-text: #b0b0e0;
+    --choice-bg: #1f1800;
+    --choice-border: #8a6a00;
+    --choice-text: #e8c84a;
+    --cond-bg: #1a1a00;
+    --cond-border: #5a5a00;
+    --cond-text: #d0d060;
+    --path-a: #0d2a0d;
+    --path-a-border: #2a7a2a;
+    --path-a-text: #70d070;
+    --path-b: #2a0d0d;
+    --path-b-border: #7a2a2a;
+    --path-b-text: #e07070;
+    --path-c: #1a0d2a;
+    --path-c-border: #6a2a9a;
+    --path-c-text: #c070f0;
+    --cons-bg: #0d0d0d;
+    --cons-border: #333;
+    --cons-text: #888;
+    --arrow: #4a4a6a;
+    --arrow-a: #2a6a2a;
+    --arrow-b: #6a2a2a;
+    --arrow-c: #5a2a8a;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'IM Fell English', serif;
+    min-height: 100vh;
+    padding: 40px 20px 80px;
+  }
+
+  .header {
+    text-align: center;
+    margin-bottom: 48px;
+  }
+
+  .header h1 {
+    font-family: 'Cinzel', serif;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    color: var(--gold);
+    text-transform: uppercase;
+  }
+
+  .header .subtitle {
+    font-size: 13px;
+    color: var(--text-dim);
+    margin-top: 8px;
+    letter-spacing: 0.15em;
+    font-style: italic;
+  }
+
+  .header .divider {
+    width: 200px;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--gold-dim), transparent);
+    margin: 16px auto;
+  }
+
+  /* ── LEGEND ── */
+  .legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+
+  .legend-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 11px;
+    color: var(--text-dim);
+    letter-spacing: 0.05em;
+  }
+
+  .legend-dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 2px;
+    border: 1px solid;
+    flex-shrink: 0;
+  }
+
+  /* ── FLOW CONTAINER ── */
+  .flow {
+    max-width: 1100px;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  /* ── SECTIONS ── */
+  .act-label {
+    font-family: 'Cinzel', serif;
+    font-size: 10px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--text-dim);
+    text-align: center;
+    margin: 28px 0 14px;
+    position: relative;
+  }
+
+  .act-label::before,
+  .act-label::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 30%;
+    height: 1px;
+    background: var(--border);
+  }
+
+  .act-label::before { left: 0; }
+  .act-label::after { right: 0; }
+
+  /* ── NODE BASE ── */
+  .node {
+    border-radius: 6px;
+    padding: 10px 14px;
+    font-size: 12px;
+    line-height: 1.5;
+    position: relative;
+    border: 1px solid;
+  }
+
+  .node .node-title {
+    font-family: 'Cinzel', serif;
+    font-size: 10px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    margin-bottom: 4px;
+    font-weight: 600;
+  }
+
+  .node .icon {
+    font-size: 14px;
+    margin-right: 6px;
+  }
+
+  /* node types */
+  .node-start {
+    background: #1a1400;
+    border-color: var(--gold);
+    color: var(--gold);
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    font-size: 11px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+  }
+
+  .node-action {
+    background: var(--action);
+    border-color: var(--action-border);
+    color: var(--action-text);
+  }
+
+  .node-absorb {
+    background: var(--absorb);
+    border-color: var(--absorb-border);
+    color: var(--absorb-text);
+  }
+
+  .node-absorb .node-title { color: var(--absorb-text); }
+
+  .node-choice {
+    background: var(--choice-bg);
+    border-color: var(--choice-border);
+    color: var(--choice-text);
+    border-radius: 4px;
+  }
+
+  .node-cond {
+    background: var(--cond-bg);
+    border-color: var(--cond-border);
+    color: var(--cond-text);
+    font-size: 11px;
+  }
+
+  .node-path-a {
+    background: var(--path-a);
+    border-color: var(--path-a-border);
+    color: var(--path-a-text);
+  }
+
+  .node-path-b {
+    background: var(--path-b);
+    border-color: var(--path-b-border);
+    color: var(--path-b-text);
+  }
+
+  .node-path-c {
+    background: var(--path-c);
+    border-color: var(--path-c-border);
+    color: var(--path-c-text);
+  }
+
+  .node-cons {
+    background: var(--cons-bg);
+    border-color: var(--cons-border);
+    color: var(--cons-text);
+    font-size: 11px;
+  }
+
+  /* ── ROW LAYOUTS ── */
+  .row {
+    display: flex;
+    gap: 12px;
+    align-items: flex-start;
+    margin-bottom: 0;
+  }
+
+  .col {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .col-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  /* ── ARROWS ── */
+  .arrow-down {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 28px;
+    color: var(--arrow);
+    font-size: 18px;
+  }
+
+  .arrow-down.a { color: var(--arrow-a); }
+  .arrow-down.b { color: var(--arrow-b); }
+  .arrow-down.c { color: var(--arrow-c); }
+
+  .arrow-label {
+    font-size: 10px;
+    color: var(--text-dim);
+    text-align: center;
+    letter-spacing: 0.08em;
+    font-style: italic;
+    margin-top: -18px;
+    margin-bottom: 6px;
+  }
+
+  /* ── CHOICE BLOCK ── */
+  .choice-block {
+    border: 1px solid var(--choice-border);
+    border-radius: 6px;
+    overflow: hidden;
+    background: var(--choice-bg);
+  }
+
+  .choice-header {
+    background: #2a2000;
+    padding: 8px 14px;
+    font-family: 'Cinzel', serif;
+    font-size: 11px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--choice-text);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .choice-flag { font-size: 14px; }
+
+  .choice-options {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0;
+  }
+
+  .choice-options.three-col {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .choice-opt {
+    padding: 10px 12px;
+    border-right: 1px solid var(--border);
+    border-top: 1px solid var(--border);
+    font-size: 11px;
+    line-height: 1.5;
+  }
+
+  .choice-opt:last-child { border-right: none; }
+
+  .choice-opt .opt-label {
+    font-family: 'Cinzel', serif;
+    font-size: 9px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    color: var(--text-dim);
+  }
+
+  .opt-yes .opt-label { color: #70a070; }
+  .opt-no .opt-label { color: #a07070; }
+  .opt-vis .opt-label { color: var(--path-a-text); }
+  .opt-words .opt-label { color: var(--action-text); }
+  .opt-silence .opt-label { color: var(--path-b-text); }
+
+  .cond-badge {
+    display: inline-block;
+    font-size: 10px;
+    padding: 1px 6px;
+    border-radius: 3px;
+    margin-top: 5px;
+    font-family: 'Cinzel', serif;
+    letter-spacing: 0.05em;
+  }
+
+  .cond-ok { background: #1a3a1a; color: var(--path-a-text); border: 1px solid var(--path-a-border); }
+  .cond-no { background: #3a1a1a; color: var(--path-b-text); border: 1px solid var(--path-b-border); }
+
+  /* ── CONVERGENCE ── */
+  .converge {
+    display: flex;
+    justify-content: center;
+    margin: 8px 0;
+  }
+
+  .converge-line {
+    width: 60%;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--border), var(--border), transparent);
+    position: relative;
+  }
+
+  /* ── FINAL PATHS ── */
+  .final-paths {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 12px;
+    margin-top: 10px;
+  }
+
+  .path-header {
+    font-family: 'Cinzel', serif;
+    font-size: 10px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    padding: 8px 12px;
+    border-radius: 4px 4px 0 0;
+    text-align: center;
+  }
+
+  .path-header.a { background: #153015; color: var(--path-a-text); border: 1px solid var(--path-a-border); border-bottom: none; }
+  .path-header.b { background: #301515; color: var(--path-b-text); border: 1px solid var(--path-b-border); border-bottom: none; }
+  .path-header.c { background: #1e1030; color: var(--path-c-text); border: 1px solid var(--path-c-border); border-bottom: none; }
+
+  .path-body {
+    padding: 10px 12px;
+    font-size: 11px;
+    line-height: 1.6;
+    border-radius: 0 0 4px 4px;
+  }
+
+  .path-body.a { background: var(--path-a); border: 1px solid var(--path-a-border); color: var(--path-a-text); }
+  .path-body.b { background: var(--path-b); border: 1px solid var(--path-b-border); color: var(--path-b-text); }
+  .path-body.c { background: var(--path-c); border: 1px solid var(--path-c-border); color: var(--path-c-text); }
+
+  .path-cost {
+    margin-top: 8px;
+    padding-top: 8px;
+    border-top: 1px solid rgba(255,255,255,0.08);
+    font-size: 10px;
+    color: var(--text-dim);
+    font-style: italic;
+  }
+
+  /* ── CONDITIONS TRACK ── */
+  .conditions-track {
+    background: #0a0a00;
+    border: 1px solid var(--cond-border);
+    border-radius: 6px;
+    padding: 12px 14px;
+    margin: 16px 0;
+  }
+
+  .conditions-track .track-title {
+    font-family: 'Cinzel', serif;
+    font-size: 10px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--cond-text);
+    margin-bottom: 10px;
+  }
+
+  .cond-list {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .cond-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    font-size: 11px;
+    color: var(--cond-text);
+  }
+
+  .cond-num {
+    font-family: 'Cinzel', serif;
+    font-size: 10px;
+    color: var(--cond-border);
+    min-width: 16px;
+    text-align: right;
+  }
+
+  /* ── CONSEQUENCES TABLE ── */
+  .cons-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    font-size: 11px;
+  }
+
+  .cons-table th {
+    background: #111;
+    padding: 8px 10px;
+    font-family: 'Cinzel', serif;
+    font-size: 9px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    border: 1px solid var(--border);
+    text-align: left;
+  }
+
+  .cons-table th.th-a { color: var(--path-a-text); }
+  .cons-table th.th-b { color: var(--path-b-text); }
+  .cons-table th.th-c { color: var(--path-c-text); }
+
+  .cons-table td {
+    padding: 7px 10px;
+    border: 1px solid var(--border);
+    color: var(--text-dim);
+    vertical-align: top;
+    line-height: 1.4;
+  }
+
+  .cons-table tr:nth-child(even) td { background: #0a0a12; }
+  .cons-table tr:nth-child(odd) td { background: var(--bg); }
+  .cons-table td:first-child { color: var(--text); font-weight: 600; }
+
+  .icon-ok { color: #70d070; }
+  .icon-bad { color: #e07070; }
+  .icon-warn { color: #d0d060; }
+
+  /* ── CONNECTOR LINES (decorative) ── */
+  .v-connector {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    height: 24px;
+    margin: 0;
+  }
+
+  .v-connector span {
+    width: 1px;
+    height: 100%;
+    display: block;
+  }
+
+  .v-connector .l-main { background: var(--border); }
+  .v-connector .l-a { background: var(--arrow-a); }
+  .v-connector .l-b { background: var(--arrow-b); }
+  .v-connector .l-c { background: var(--arrow-c); }
+
+  .section-gap { height: 20px; }
+  .small-gap { height: 10px; }
+
+  /* ── ITEM GRID ── */
+  .item-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+    margin-bottom: 0;
+  }
+
+  .item-card {
+    background: #0f0f1a;
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    padding: 8px 10px;
+    font-size: 11px;
+  }
+
+  .item-card .item-name {
+    font-family: 'Cinzel', serif;
+    font-size: 9px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 3px;
+  }
+
+  .item-card .item-use {
+    color: var(--text-dim);
+    line-height: 1.4;
+  }
+
+  /* ── SEPARATOR ── */
+  .sep {
+    text-align: center;
+    color: var(--text-dim);
+    font-size: 20px;
+    margin: 2px 0;
+    opacity: 0.5;
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="divider"></div>
+  <h1>Квест: Клык Ньяна</h1>
+  <div class="subtitle">Акт I — Монастырь · Схема развилок и последствий</div>
+  <div class="divider"></div>
+</div>
+
+<!-- LEGEND -->
+<div class="legend">
+  <div class="legend-item">
+    <div class="legend-dot" style="background:var(--absorb);border-color:var(--absorb-border)"></div>
+    Поглощение кармы
+  </div>
+  <div class="legend-item">
+    <div class="legend-dot" style="background:var(--choice-bg);border-color:var(--choice-border)"></div>
+    Точка выбора
+  </div>
+  <div class="legend-item">
+    <div class="legend-dot" style="background:var(--cond-bg);border-color:var(--cond-border)"></div>
+    Условие Пути C
+  </div>
+  <div class="legend-item">
+    <div class="legend-dot" style="background:var(--path-a);border-color:var(--path-a-border)"></div>
+    Путь A
+  </div>
+  <div class="legend-item">
+    <div class="legend-dot" style="background:var(--path-b);border-color:var(--path-b-border)"></div>
+    Путь B
+  </div>
+  <div class="legend-item">
+    <div class="legend-dot" style="background:var(--path-c);border-color:var(--path-c-border)"></div>
+    Путь C (скрытый)
+  </div>
+</div>
+
+<div class="flow">
+
+  <!-- ══ ACT I ══ -->
+  <div class="act-label">Акт I — Тропа</div>
+
+  <div class="node node-start">⛰ Протагонист прибывает к подножию тропы</div>
+
+  <div class="arrow-down">↓</div>
+
+  <div class="node node-absorb">
+    <div class="node-title">💀 Труп Паломника — поглощение обязательно</div>
+    +1 диалог · Видение: тропа открыта 3 дня назад · Монах с котомкой прошёл наверх и не спустился · Дерево с чёрными кончиками · Паломник умер, ожидая Лхамо
+  </div>
+
+  <div class="arrow-down">↓</div>
+
+  <div class="node node-action">
+    <div class="node-title">🧒 Встреча с Лхамо</div>
+    Яки стоят: чуют разрыв договора Ньяна · Мать больна · Отец Лобсанг исчез 3 дня назад · Тропа вниз безопасна, но уводит от монастыря
+  </div>
+
+  <div class="arrow-down">↓</div>
+
+  <!-- CHOICE 1 -->
+  <div class="choice-block">
+    <div class="choice-header"><span class="choice-flag">⚑</span> Точка выбора 1 — Ресурс: Потратить диалог на Лхамо?</div>
+    <div class="choice-options">
+      <div class="choice-opt opt-yes">
+        <div class="opt-label">✓ Да</div>
+        Яки успокоены · Мать получает сообщение · Лхамо идёт вместе с начала
+        <br><span class="cond-badge cond-no">Каузальный вес: 0</span>
+        <br><span class="cond-badge cond-ok">Доверие: высокое</span>
+      </div>
+      <div class="choice-opt opt-no">
+        <div class="opt-label">✗ Нет</div>
+        Лхамо следует самостоятельно · Появляется позже у дома
+        <br><span class="cond-badge cond-ok">Каузальный вес: 1</span>
+        <br><span class="cond-badge cond-no">Доверие: нейтральное</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══ ACT II ══ -->
+  <div class="act-label">Акт II — Дом Зодчего</div>
+
+  <div class="node node-action">
+    <div class="node-title">🏠 Дом Зодчего — Внешний вид</div>
+    Дерево пронизало дом насквозь · Крона — инвертированный чёрный лотос · Прялка крутится без Долмы (визуальный индикатор жизни)
+  </div>
+
+  <div class="arrow-down">↓</div>
+
+  <div class="node node-action">
+    <div class="node-title">👵 Долма — диалог без расхода ресурса</div>
+    Оба вне каузальности · «Дерево знает, когда уходят. Я не ухожу. Но выбрать не могу» · «Наверху что-то тяжёлое выросло»
+  </div>
+
+  <div class="arrow-down">↓</div>
+
+  <div class="node node-absorb">
+    <div class="node-title">🪵 Резьба Зодчего — поглощение (только видение)</div>
+    Видение договора · Ключ: <em>Зодчий не спрашивал потомков. Он решил за них.</em>
+  </div>
+
+  <div class="arrow-down">↓</div>
+
+  <!-- CONDITIONS NOTE -->
+  <div class="conditions-track">
+    <div class="track-title">⧖ Трек условий Пути C (скрытый финал)</div>
+    <div class="cond-list">
+      <div class="cond-item">
+        <span class="cond-num">1</span>
+        <span>Долма показывает договорный камень · Лхамо читает: <em>«пока кровь выбирает этот камень, Клык стоит»</em> · Требует: Лхамо рядом в этой сцене</span>
+      </div>
+      <div class="cond-item">
+        <span class="cond-num">2</span>
+        <span>Протагонист поглощает кармическое эхо Лобсанга и показывает видение Лхамо · Требует: выбор «показать видение» в Точке выбора 2</span>
+      </div>
+      <div class="cond-item">
+        <span class="cond-num">3</span>
+        <span>Доверие Лхамо максимальное до откровения Тензина · Следствие условий 1+2</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="arrow-down">↓</div>
+
+  <div class="node node-action">
+    <div class="node-title">🌳 Подъём по дереву</div>
+    Чёрные Лотосы расступаются — первое применение природы лотосорождённого · На середине ствола: рука Лобсанга и лоскут рясы
+  </div>
+
+  <div class="arrow-down">↓</div>
+
+  <div class="node node-absorb">
+    <div class="node-title">✋ Поглощение: Рука Лобсанга (опционально)</div>
+    Видение последней мысли — образ Лхамо на рассвете · Не страх. Не боль.
+  </div>
+
+  <div class="arrow-down">↓</div>
+
+  <!-- CHOICE 2 -->
+  <div class="choice-block">
+    <div class="choice-header"><span class="choice-flag">⚑</span> Точка выбора 2 — Информация: Сказать Лхамо о смерти отца?</div>
+    <div class="choice-options three-col">
+      <div class="choice-opt opt-vis">
+        <div class="opt-label">Показать видение</div>
+        Лхамо знает последнюю мысль отца · Горе обработано до Тензина
+        <br><span class="cond-badge cond-ok">Доверие: MAX</span>
+        <br><span class="cond-badge cond-ok">✓ Условие C (2/3)</span>
+      </div>
+      <div class="choice-opt opt-words">
+        <div class="opt-label">Сказать словами</div>
+        Лхамо знает факт · Без видения · Откровение Тензина ударит сильнее
+        <br><span class="cond-badge cond-no">Доверие: среднее</span>
+        <br><span class="cond-badge cond-no">✗ Условие C не выполнено</span>
+      </div>
+      <div class="choice-opt opt-silence">
+        <div class="opt-label">Промолчать</div>
+        Узнает от Тензина · Удар в неожиданный момент
+        <br><span class="cond-badge cond-no">Доверие: потеряно</span>
+        <br><span class="cond-badge cond-no">✗ Путь C закрыт навсегда</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="arrow-down">↓</div>
+
+  <div class="node node-action">
+    <div class="node-title">🔴 Плод получен с вершины дерева</div>
+    Тёплый, пульсирующий · Недоступен никому, кроме протагониста — Чёрные Лотосы атакуют любую другую руку
+  </div>
+
+  <!-- ══ ACT III ══ -->
+  <div class="act-label">Акт III — Ворота монастыря</div>
+
+  <div class="node node-action">
+    <div class="node-title">🧘 Тензин — Мандала Монлам сереет</div>
+    Объясняет угрозу и историю договора · <strong>Откровение:</strong> три дня назад дал Лобсангу информацию о Плоде без контекста → Лобсанг пошёл сам → погиб · Тензин частично виновен · Реакция Лхамо зависит от Точки выбора 2
+  </div>
+
+  <div class="arrow-down">↓</div>
+
+  <div class="node node-cond">
+    <div class="node-title">⧖ Проверка: состояние доверия Лхамо на момент откровения</div>
+    МАКСИМАЛЬНОЕ (показал видение) → Путь C разблокирован · СРЕДНЕЕ или ПОТЕРЯНО → только Пути A и B
+  </div>
+
+  <div class="arrow-down">↓</div>
+
+  <div class="node node-choice" style="text-align:center; padding: 12px;">
+    <div class="node-title" style="text-align:center; font-size: 12px; margin-bottom: 0;">⚑ ФИНАЛЬНЫЙ ВЫБОР</div>
+  </div>
+
+  <!-- FINAL PATHS -->
+  <div style="margin: 16px 0 10px; display: flex; justify-content: center; gap: 0;">
+    <div style="flex:1; display:flex; justify-content:center; color: var(--arrow-a); font-size:11px; letter-spacing:0.05em;">↙ ПУТЬ A</div>
+    <div style="flex:1; display:flex; justify-content:center; color: var(--arrow); font-size:11px; letter-spacing:0.05em;">↓ ПУТЬ B</div>
+    <div style="flex:1; display:flex; justify-content:center; color: var(--arrow-c); font-size:11px; letter-spacing:0.05em;">↘ ПУТЬ C</div>
+  </div>
+
+  <div class="final-paths">
+    <!-- PATH A -->
+    <div>
+      <div class="path-header a">💚 A — Разбить Плод</div>
+      <div class="path-body a">
+        <strong>Механика:</strong> вернуться к дереву, разбить у корней — финальный платёж Ньяну
+        <br><br>
+        <span class="icon-ok">✓</span> Ньян уходит, скала вечна<br>
+        <span class="icon-ok">✓</span> Долма свободна<br>
+        <span class="icon-bad">✗</span> Мандала Тензина сброшена<br>
+        <span class="icon-bad">✗</span> Лхамо видит эхо отца — тяжелее потери<br>
+        <span class="icon-warn">~</span> Слабый голос Зодчего в Акте II
+      </div>
+    </div>
+
+    <!-- PATH B -->
+    <div>
+      <div class="path-header b">🔴 B — Поглотить Плод</div>
+      <div class="path-body b">
+        <strong>Механика:</strong> вскрыть Плод → Лотосы атакуют → использовать Колокольчик?
+        <br><br>
+        <span class="icon-ok">✓</span> Зрение Мастера навсегда<br>
+        <span class="icon-ok">✓</span> Долма свободна<br>
+        <span class="icon-bad">✗</span> Скала движется → трещины на тропе<br>
+        <span class="icon-bad">✗</span> Мать Лхамо изолирована<br>
+        <span class="icon-bad">✗</span> Чужие паттерны в диалогах
+      </div>
+    </div>
+
+    <!-- PATH C -->
+    <div>
+      <div class="path-header c">🟣 C — Лхамо: хранитель *(скрытый)*</div>
+      <div class="path-body c">
+        <strong>Механика:</strong> Лхамо предлагает сама · Плод — кармический свидетель нового договора
+        <br><br>
+        <span class="icon-ok">✓</span> Дерево живёт, договор продлён<br>
+        <span class="icon-ok">✓</span> Долма → к матери Лхамо<br>
+        <span class="icon-ok">✓</span> Мандала усилена<br>
+        <span class="icon-bad">✗</span> Лхамо привязана к скале навсегда<br>
+        <span class="icon-bad">✗</span> Протагонист без нового умения
+      </div>
+    </div>
+  </div>
+
+  <!-- ══ CONSEQUENCES TABLE ══ -->
+  <div class="act-label">Последствия — переход в Акт II</div>
+
+  <table class="cons-table">
+    <thead>
+      <tr>
+        <th>Параметр</th>
+        <th class="th-a">Путь A</th>
+        <th class="th-b">Путь B</th>
+        <th class="th-c">Путь C</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Мандала Тензина</td>
+        <td>Сброшена, восстанавливается</td>
+        <td>Деградирует быстро</td>
+        <td>Усилена</td>
+      </tr>
+      <tr>
+        <td>Долма</td>
+        <td>Свободна, уходит</td>
+        <td>Свободна, без дома</td>
+        <td>Уходит к матери Лхамо</td>
+      </tr>
+      <tr>
+        <td>Лхамо в Акте II</td>
+        <td>Присутствует</td>
+        <td>Зависит от выбора говорить/нет</td>
+        <td>Отсутствует, встреча позже</td>
+      </tr>
+      <tr>
+        <td>Мать Лхамо</td>
+        <td>Эвакуирована</td>
+        <td>Изолирована трещинами</td>
+        <td>Под опекой Долмы</td>
+      </tr>
+      <tr>
+        <td>Внутренний голос</td>
+        <td>Слабый импульс Зодчего</td>
+        <td>Паттерны Зодчего (явные)</td>
+        <td>Без изменений</td>
+      </tr>
+      <tr>
+        <td>Зрение</td>
+        <td>Без изменений</td>
+        <td>Постоянное каузальное</td>
+        <td>Без изменений</td>
+      </tr>
+      <tr>
+        <td>Зависимость от трупов</td>
+        <td>Сохраняется</td>
+        <td>Устранена</td>
+        <td>Сохраняется</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- ITEMS GRID -->
+  <div class="act-label">Предметы</div>
+  <div class="item-grid">
+    <div class="item-card">
+      <div class="item-name">📿 Чётки паломника</div>
+      <div class="item-use">Активирует поглощение. У ворот — «духовное представление» без кармической репутации</div>
+    </div>
+    <div class="item-card">
+      <div class="item-name">🔔 Колокольчик Лхамо</div>
+      <div class="item-use">Путь B: рассеивает атаку Чёрных Лотосов при вскрытии Плода</div>
+    </div>
+    <div class="item-card">
+      <div class="item-name">🪵 Резьба Зодчего</div>
+      <div class="item-use">Видение договора. Ключ: Зодчий не спрашивал потомков</div>
+    </div>
+    <div class="item-card">
+      <div class="item-name">📜 Договорный камень</div>
+      <div class="item-use">Лхамо читает: «пока кровь выбирает…» → Условие C (1/3)</div>
+    </div>
+    <div class="item-card">
+      <div class="item-name">🧵 Лоскут рясы Лобсанга</div>
+      <div class="item-use">Видение последней мысли. Показать Лхамо → Условие C (2/3)</div>
+    </div>
+    <div class="item-card">
+      <div class="item-name">🔴 Плод</div>
+      <div class="item-use">Центральный объект финала. Три варианта использования</div>
+    </div>
+  </div>
+
+  <div style="text-align:center; color: var(--text-dim); font-size:11px; margin-top: 40px; font-style:italic; letter-spacing:0.1em;">
+    Прялка Долмы — не предмет. Визуальный индикатор: крутится = жива · остановилась = умерла
+  </div>
+
+</div><!-- /flow -->
+</body>
+</html>
