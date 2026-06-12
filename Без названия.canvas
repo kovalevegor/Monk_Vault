@@ -3,12 +3,12 @@
 		{
 			"id":"17fb42e23fc656de",
 			"type":"text",
-			"text":"",
-			"styleAttributes":{},
+			"text":"Встреча с Лхамо",
+			"styleAttributes":{"shape":"circle","textAlign":"center"},
 			"x":-120,
 			"y":-20,
 			"width":260,
-			"height":60
+			"height":260
 		}
 	],
 	"edges":[],
