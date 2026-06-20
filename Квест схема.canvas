@@ -1,6 +1,191 @@
 {
 	"nodes":[
 		{
+			"id":"d43806a4cf656321",
+			"type":"text",
+			"text":"## **NPC** \n**Lhamo**\n\n---\n+ She’s a nomad with her family\n+ Accompanied by a herd of red-horned yaks\n+ Kind and considerate \n+ Wary of strangers \n",
+			"styleAttributes":{
+				"border":null
+			},
+			"x":-783,
+			"y":4494,
+			"width":480,
+			"height":440,
+			"color":"#ffffff"
+		},
+		{
+			"id":"fba8ab0c51c01e7f",
+			"type":"text",
+			"text":"## **ITEM** \n**A burned brand**\n\n---\nOn the body of a dead man entwined with black roots, an unusual brand was found. Its symbol seems familiar.",
+			"styleAttributes":{
+				"border":null
+			},
+			"x":-64,
+			"y":4877,
+			"width":520,
+			"height":380
+		},
+		{
+			"id":"ade90cb75bbe9975",
+			"type":"text",
+			"text":"#### **Ill mother**\nLies in a tent nearby and cannot move from her place",
+			"styleAttributes":{},
+			"x":-783,
+			"y":4953,
+			"width":481,
+			"height":182
+		},
+		{
+			"id":"f1ca05c5e6a82c6e",
+			"type":"text",
+			"text":"#### **Father’s song**\nShe’s humming her father’s song ",
+			"styleAttributes":{},
+			"x":-784,
+			"y":5155,
+			"width":481,
+			"height":140
+		},
+		{
+			"id":"7863f813b78d55c1",
+			"type":"text",
+			"text":"#### **Power of the Stupa record**\nFound a record about the release of fire energy through the spine of the stupa.",
+			"styleAttributes":{
+				"shape":null
+			},
+			"x":2416,
+			"y":4165,
+			"width":520,
+			"height":195
+		},
+		{
+			"id":"c3b5b2ddf96e9eeb",
+			"type":"text",
+			"text":"## **ACTION** \n\n> To copy the text of the pact and show it to Lhamo to transcribe it ",
+			"styleAttributes":{
+				"border":null
+			},
+			"x":2416,
+			"y":4619,
+			"width":520,
+			"height":190,
+			"color":"#ffffff"
+		},
+		{
+			"id":"d562873003900acb",
+			"type":"text",
+			"text":"#### **Revelation** \n\nThe pact is a text copy of the song Lhamo was taught by her father ",
+			"styleAttributes":{
+				"border":null
+			},
+			"x":2416,
+			"y":4833,
+			"width":520,
+			"height":180
+		},
+		{
+			"id":"1045f05db551c24e",
+			"type":"text",
+			"text":"#### **Olive oil**\nTo open a stupa have to buy Hellenistic non karma oil from the merchant",
+			"styleAttributes":{
+				"shape":null
+			},
+			"x":3176,
+			"y":3793,
+			"width":520,
+			"height":195
+		},
+		{
+			"id":"c4d98a1d44e7e70a",
+			"type":"text",
+			"text":"#### **Srog-shing**\nThe protagonist got **Srog-shing** stick — the axis of the stupa, a catalyst for karma and fire",
+			"styleAttributes":{
+				"shape":null
+			},
+			"x":3176,
+			"y":4165,
+			"width":520,
+			"height":195
+		},
+		{
+			"id":"594a41dec2996718",
+			"type":"text",
+			"text":"#### **How to break the pact?** ",
+			"styleAttributes":{
+				"border":null,
+				"shape":"diamond",
+				"textAlign":"center"
+			},
+			"x":3176,
+			"y":4544,
+			"width":360,
+			"height":340,
+			"color":"#ffffff"
+		},
+		{
+			"id":"bbb87403c9d996c4",
+			"type":"text",
+			"text":"#### **Artifact for trade**\nFound an artifact worthy of equivalent barter.",
+			"styleAttributes":{
+				"shape":null
+			},
+			"x":2416,
+			"y":3793,
+			"width":520,
+			"height":195
+		},
+		{
+			"id":"df87a7938ec87fa1",
+			"type":"text",
+			"text":"## **ACTION** \n\n> Burn the giant tree",
+			"styleAttributes":{
+				"border":null
+			},
+			"x":3836,
+			"y":4393,
+			"width":520,
+			"height":190,
+			"color":"#ffffff"
+		},
+		{
+			"id":"01c0ea9124ec123c",
+			"type":"text",
+			"text":"## **ACTION** \n\n> Give Lhamo her father’s brand\n\nLhamo decides to make a sacrifice",
+			"styleAttributes":{
+				"border":null
+			},
+			"x":3836,
+			"y":4863,
+			"width":520,
+			"height":190,
+			"color":"#ffffff"
+		},
+		{
+			"id":"796b4fa70accc636",
+			"type":"text",
+			"text":"## **CONSEQUENCES** \n\n> 1. The path and bridge are free now\n> 2. **Dolma dies**\n> 3. Lhamo shares a Bon-script transcribe instruction she created for the protagonist\n\nIn the ACT II the protagonist meets a family with a newborn girl who is very curious about everything around her",
+			"styleAttributes":{
+				"border":null
+			},
+			"x":4656,
+			"y":4137,
+			"width":520,
+			"height":446,
+			"color":"#ffffff"
+		},
+		{
+			"id":"bddc4d864d52778e",
+			"type":"text",
+			"text":"## **CONSEQUENCES** \n\n> 1. The path and bridge are free now\n> 2. **Lhamo dies**\n> 3. Lhamo shares a Bon-script transcribe instruction she created for the protagonist\n\nПридумать последствия во втором акте",
+			"styleAttributes":{
+				"border":null
+			},
+			"x":4656,
+			"y":4863,
+			"width":520,
+			"height":380,
+			"color":"#ffffff"
+		},
+		{
 			"id":"2a596216dc9ab48a",
 			"type":"text",
 			"text":"## **NPC** \n**Tenzin**\n\n---\n+ He’s the Khenpo of the monastery\n+ His character is based on 14th Dalai Lama\n+ He’s concerned about the black roots\n+ He’s trying to repair the bridge \n",
@@ -41,6 +226,42 @@
 			"color":"#ffffff"
 		},
 		{
+			"id":"b5b20fc75cfda616",
+			"type":"text",
+			"text":"#### **Spirit pact**\nShe reveals the details of the pact between her ancestor and the spirit.",
+			"styleAttributes":{
+				"shape":null
+			},
+			"x":1576,
+			"y":4991,
+			"width":520,
+			"height":195
+		},
+		{
+			"id":"957f88b46f961f31",
+			"type":"text",
+			"text":"#### **Fear and Desire**\nDreams of seeing the outside world and afraid of death, so she does not break the pact",
+			"styleAttributes":{
+				"shape":null
+			},
+			"x":1576,
+			"y":5211,
+			"width":520,
+			"height":220
+		},
+		{
+			"id":"229f02f0077557c5",
+			"type":"text",
+			"text":"#### **Bon pact**\nThe text of the pact is recorded on the giant tree",
+			"styleAttributes":{
+				"shape":null
+			},
+			"x":1576,
+			"y":5451,
+			"width":520,
+			"height":220
+		},
+		{
 			"id":"586cacbc1205d89a",
 			"type":"text",
 			"text":"#### **Monastery records**\nA clue to the correct sequence of the serpent columns.",
@@ -65,13 +286,63 @@
 			"height":210
 		},
 		{
+			"id":"9b7a19785d7fbd3b",
+			"type":"text",
+			"text":"#### **«Обожженное тавро»** \n\n---\n\n_Ритуальный атрибут рода, который променял свои будущие перерождения на неподвижность камня. На обратной стороне выгравированы слова: «Мы — фундамент этого неба. Пока мы стоим, скалы молчат»._ _Лобсанг использовал его, чтобы метить скот, пытаясь превратить великий долг в обычное ремесло. Но корни прошлого невозможно скрыть сажей от костра»_",
+			"styleAttributes":{},
+			"x":-64,
+			"y":5277,
+			"width":520,
+			"height":560
+		},
+		{
+			"id":"7a48751bbaeb9ea6",
+			"type":"text",
+			"text":"#### **The path is blocked**\nConsequently, she unable to move without yaks of abandon her mother",
+			"styleAttributes":{},
+			"x":-784,
+			"y":5315,
+			"width":481,
+			"height":180
+		},
+		{
+			"id":"61b83a5730b48587",
+			"type":"text",
+			"text":"#### **The missing father**\nThe father left for the monastery three days ago to get medicine for the mother (his wife) and has not returned. ",
+			"styleAttributes":{},
+			"x":-783,
+			"y":5507,
+			"width":481,
+			"height":220
+		},
+		{
+			"id":"e3922e1835c79738",
+			"type":"text",
+			"text":"#### **Brands on yaks**\nThe nomad's cattle are marked with a special family brand that emits a glow.",
+			"styleAttributes":{},
+			"x":-783,
+			"y":5747,
+			"width":481,
+			"height":180
+		},
+		{
+			"id":"a0ba555ce4a37ebc",
+			"type":"text",
+			"text":"#### **Bon script**\nShe can read the Bon script, having learned it from her father",
+			"styleAttributes":{},
+			"x":-784,
+			"y":5955,
+			"width":481,
+			"height":180
+		},
+		{
 			"id":"0705de505295ecc2",
 			"type":"text",
 			"text":"#### Additional knowledge\nAncient spirits could move mountains, alter river courses, and direct the flows of winds.",
 			"styleAttributes":{},
-			"x":0,
-			"y":5317,
-			"width":536,
+			"x":-64,
+			"y":6233,
+			"width":520,
 			"height":212,
 			"color":"#ffffff"
 		},
@@ -80,27 +351,156 @@
 			"type":"text",
 			"text":"#### Additional knowledge\nMysterious stones with unclear inscriptions that the hero cannot decipher",
 			"styleAttributes":{},
-			"x":0,
-			"y":5561,
-			"width":536,
-			"height":206,
-			"color":"#ffffff"
-		},
-		{
-			"id":"8d5eed45145969c0",
-			"type":"text",
-			"text":"## **NPC** \n**Lhamo**\n\n---\n+ She’s a nomad with her family\n+ Accompanied by a herd of red-horned yaks\n+ Kind and considerate \n+ Wary of strangers \n",
-			"styleAttributes":{
-				"border":null
-			},
-			"x":-560,
-			"y":4494,
-			"width":480,
-			"height":440,
+			"x":-1444,
+			"y":6339,
+			"width":481,
+			"height":221,
 			"color":"#ffffff"
 		}
 	],
 	"edges":[
+		{
+			"id":"69a65fd5524b05fa",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"d43806a4cf656321",
+			"fromSide":"right",
+			"toNode":"2a596216dc9ab48a",
+			"toSide":"left"
+		},
+		{
+			"id":"1e696a7e6e084a04",
+			"styleAttributes":{"path":"long-dashed"},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"e3922e1835c79738",
+			"fromSide":"right",
+			"toNode":"fba8ab0c51c01e7f",
+			"toSide":"left"
+		},
+		{
+			"id":"e6f0917e1432d61a",
+			"styleAttributes":{"path":"long-dashed"},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"61b83a5730b48587",
+			"fromSide":"right",
+			"toNode":"fba8ab0c51c01e7f",
+			"toSide":"left"
+		},
+		{
+			"id":"c0ab20950adaa935",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"7863f813b78d55c1",
+			"fromSide":"right",
+			"toNode":"c4d98a1d44e7e70a",
+			"toSide":"left"
+		},
+		{
+			"id":"f248b6e9641b4b56",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"c3b5b2ddf96e9eeb",
+			"fromSide":"right",
+			"toNode":"594a41dec2996718",
+			"toSide":"left"
+		},
+		{
+			"id":"16ceaec4eabf1c5c",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"27638e12dca8cb13",
+			"fromSide":"right",
+			"toNode":"c3b5b2ddf96e9eeb",
+			"toSide":"left"
+		},
+		{
+			"id":"251a275edbd1c056",
+			"styleAttributes":{"path":"long-dashed"},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"a0ba555ce4a37ebc",
+			"fromSide":"right",
+			"toNode":"c3b5b2ddf96e9eeb",
+			"toSide":"left"
+		},
+		{
+			"id":"fc2484274458c772",
+			"styleAttributes":{"path":"long-dashed"},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"229f02f0077557c5",
+			"fromSide":"right",
+			"toNode":"c3b5b2ddf96e9eeb",
+			"toSide":"left"
+		},
+		{
+			"id":"ede1c2c67f1dee05",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"1045f05db551c24e",
+			"fromSide":"bottom",
+			"toNode":"c4d98a1d44e7e70a",
+			"toSide":"top"
+		},
+		{
+			"id":"8027edf981de801b",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"bbb87403c9d996c4",
+			"fromSide":"right",
+			"toNode":"1045f05db551c24e",
+			"toSide":"left"
+		},
+		{
+			"id":"cb2a097edfd29412",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"c4d98a1d44e7e70a",
+			"fromSide":"right",
+			"toNode":"df87a7938ec87fa1",
+			"toSide":"top"
+		},
+		{
+			"id":"134badd9fa25376c",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"594a41dec2996718",
+			"fromSide":"right",
+			"toNode":"01c0ea9124ec123c",
+			"toSide":"left"
+		},
+		{
+			"id":"e694aa15ad6272a5",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"594a41dec2996718",
+			"fromSide":"right",
+			"toNode":"df87a7938ec87fa1",
+			"toSide":"left"
+		},
+		{
+			"id":"73be470e00eca05a",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"df87a7938ec87fa1",
+			"fromSide":"right",
+			"toNode":"796b4fa70accc636",
+			"toSide":"left"
+		},
+		{
+			"id":"a079fb5050294856",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"01c0ea9124ec123c",
+			"fromSide":"right",
+			"toNode":"bddc4d864d52778e",
+			"toSide":"left"
+		},
 		{
 			"id":"4b5c2e220eaf702d",
 			"styleAttributes":{},
@@ -131,12 +531,13 @@
 			"toSide":"left"
 		},
 		{
-			"id":"7c29b9fdd98a6f28",
-			"styleAttributes":{},
+			"id":"f31a359ff51a8ef7",
+			"styleAttributes":{"path":"long-dashed"},
 			"toFloating":false,
-			"fromNode":"8d5eed45145969c0",
+			"fromFloating":false,
+			"fromNode":"d9be31aa20eef88b",
 			"fromSide":"right",
-			"toNode":"2a596216dc9ab48a",
+			"toNode":"a0ba555ce4a37ebc",
 			"toSide":"left"
 		}
 	],
