@@ -222,8 +222,7 @@
 			"x":-64,
 			"y":6233,
 			"width":520,
-			"height":212,
-			"color":"#ffffff"
+			"height":212
 		},
 		{
 			"id":"d43806a4cf656321",
@@ -249,18 +248,6 @@
 			"y":4478,
 			"width":520,
 			"height":480
-		},
-		{
-			"id":"c3b5b2ddf96e9eeb",
-			"type":"text",
-			"text":"## **ACTION** \n\n> To copy the text of the pact and show it to Lhamo to transcribe it ",
-			"styleAttributes":{
-				"border":null
-			},
-			"x":2416,
-			"y":4619,
-			"width":520,
-			"height":190
 		},
 		{
 			"id":"594a41dec2996718",
@@ -345,8 +332,19 @@
 			"x":-1400,
 			"y":6335,
 			"width":481,
-			"height":221,
-			"color":"#ffffff"
+			"height":221
+		},
+		{
+			"id":"c3b5b2ddf96e9eeb",
+			"type":"text",
+			"text":"## **ACTION** \n\n> To copy the text of the pact and show it to Lhamo to transcribe it ",
+			"styleAttributes":{
+				"border":null
+			},
+			"x":2416,
+			"y":4619,
+			"width":520,
+			"height":190
 		}
 	],
 	"edges":[
