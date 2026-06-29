@@ -1,19 +1,6 @@
 {
 	"nodes":[
 		{
-			"id":"d43806a4cf656321",
-			"type":"text",
-			"text":"## **NPC** \n**Lhamo**\n\n---\n+ She’s a nomad with her family\n+ Accompanied by a herd of red-horned yaks\n+ Kind and considerate \n+ Wary of strangers \n",
-			"styleAttributes":{
-				"border":null
-			},
-			"x":-783,
-			"y":4494,
-			"width":480,
-			"height":440,
-			"color":"#ffffff"
-		},
-		{
 			"id":"fba8ab0c51c01e7f",
 			"type":"text",
 			"text":"## **ITEM** \n**A burned brand**\n\n---\nOn the body of a dead man entwined with black roots, an unusual brand was found. Its symbol seems familiar.",
@@ -58,19 +45,6 @@
 			"height":195
 		},
 		{
-			"id":"c3b5b2ddf96e9eeb",
-			"type":"text",
-			"text":"## **ACTION** \n\n> To copy the text of the pact and show it to Lhamo to transcribe it ",
-			"styleAttributes":{
-				"border":null
-			},
-			"x":2416,
-			"y":4619,
-			"width":520,
-			"height":190,
-			"color":"#ffffff"
-		},
-		{
 			"id":"d562873003900acb",
 			"type":"text",
 			"text":"#### **Revelation** \n\nThe pact is a text copy of the song Lhamo was taught by her father ",
@@ -107,21 +81,6 @@
 			"height":195
 		},
 		{
-			"id":"594a41dec2996718",
-			"type":"text",
-			"text":"#### **How to break the pact?** ",
-			"styleAttributes":{
-				"border":null,
-				"shape":"diamond",
-				"textAlign":"center"
-			},
-			"x":3176,
-			"y":4544,
-			"width":360,
-			"height":340,
-			"color":"#ffffff"
-		},
-		{
 			"id":"bbb87403c9d996c4",
 			"type":"text",
 			"text":"#### **Artifact for trade**\nFound an artifact worthy of equivalent barter.",
@@ -134,72 +93,6 @@
 			"height":195
 		},
 		{
-			"id":"df87a7938ec87fa1",
-			"type":"text",
-			"text":"## **ACTION** \n\n> Burn the giant tree",
-			"styleAttributes":{
-				"border":null
-			},
-			"x":3836,
-			"y":4393,
-			"width":520,
-			"height":190,
-			"color":"#ffffff"
-		},
-		{
-			"id":"01c0ea9124ec123c",
-			"type":"text",
-			"text":"## **ACTION** \n\n> Give Lhamo her father’s brand\n\nLhamo decides to make a sacrifice",
-			"styleAttributes":{
-				"border":null
-			},
-			"x":3836,
-			"y":4863,
-			"width":520,
-			"height":190,
-			"color":"#ffffff"
-		},
-		{
-			"id":"796b4fa70accc636",
-			"type":"text",
-			"text":"## **CONSEQUENCES** \n\n> 1. The path and bridge are free now\n> 2. **Dolma dies**\n> 3. Lhamo shares a Bon-script transcribe instruction she created for the protagonist\n\nIn the ACT II the protagonist meets a family with a newborn girl who is very curious about everything around her",
-			"styleAttributes":{
-				"border":null
-			},
-			"x":4656,
-			"y":4137,
-			"width":520,
-			"height":446,
-			"color":"#ffffff"
-		},
-		{
-			"id":"bddc4d864d52778e",
-			"type":"text",
-			"text":"## **CONSEQUENCES** \n\n> 1. The path and bridge are free now\n> 2. **Lhamo dies**\n> 3. Lhamo shares a Bon-script transcribe instruction she created for the protagonist\n\nПридумать последствия во втором акте",
-			"styleAttributes":{
-				"border":null
-			},
-			"x":4656,
-			"y":4863,
-			"width":520,
-			"height":380,
-			"color":"#ffffff"
-		},
-		{
-			"id":"2a596216dc9ab48a",
-			"type":"text",
-			"text":"## **NPC** \n**Tenzin**\n\n---\n+ He’s the Khenpo of the monastery\n+ His character is based on 14th Dalai Lama\n+ He’s concerned about the black roots\n+ He’s trying to repair the bridge \n",
-			"styleAttributes":{
-				"border":null,
-				"shape":null
-			},
-			"x":696,
-			"y":4514,
-			"width":520,
-			"height":400,
-			"color":"#ffffff"
-		},
-		{
 			"id":"8519dd5145b3081e",
 			"type":"text",
 			"text":"#### **The monastery’s background**\nRelates the monastery's backstory. \n\nThe First Lopon Lama chose this site for construction and created the architecture. Then made a pact with a Bon spirit. Tenzin knows no details. After the pact, a giant tree grew on the site of the Lopon Lama's house.",
@@ -210,20 +103,6 @@
 			"y":4950,
 			"width":520,
 			"height":351
-		},
-		{
-			"id":"27638e12dca8cb13",
-			"type":"text",
-			"text":"## **NPC** \n**Dolma**\n\n---\n+ An old woman\n+ Lives in Lopon Lama's house\n+ The last of her bloodline\n+ Her house sank into the rock\n+ A giant tree grows from the house.\n+ Bricked up inside the house\n",
-			"styleAttributes":{
-				"border":null,
-				"shape":null
-			},
-			"x":1576,
-			"y":4478,
-			"width":520,
-			"height":480,
-			"color":"#ffffff"
 		},
 		{
 			"id":"b5b20fc75cfda616",
@@ -356,6 +235,118 @@
 			"width":481,
 			"height":221,
 			"color":"#ffffff"
+		},
+		{
+			"id":"d43806a4cf656321",
+			"type":"text",
+			"text":"## **NPC** \n==**Lhamo**==\n\n---\n+ She’s a nomad with her family\n+ Accompanied by a herd of red-horned yaks\n+ Kind and considerate \n+ Wary of strangers \n",
+			"styleAttributes":{
+				"border":null
+			},
+			"x":-783,
+			"y":4494,
+			"width":480,
+			"height":440
+		},
+		{
+			"id":"2a596216dc9ab48a",
+			"type":"text",
+			"text":"## **NPC** \n**Tenzin**\n\n---\n+ He’s the Khenpo of the monastery\n+ His character is based on 14th Dalai Lama\n+ He’s concerned about the black roots\n+ He’s trying to repair the bridge \n",
+			"styleAttributes":{
+				"border":null,
+				"shape":null
+			},
+			"x":696,
+			"y":4514,
+			"width":520,
+			"height":400
+		},
+		{
+			"id":"27638e12dca8cb13",
+			"type":"text",
+			"text":"## **NPC** \n**Dolma**\n\n---\n+ An old woman\n+ Lives in Lopon Lama's house\n+ The last of her bloodline\n+ Her house sank into the rock\n+ A giant tree grows from the house.\n+ Bricked up inside the house\n",
+			"styleAttributes":{
+				"border":null,
+				"shape":null
+			},
+			"x":1576,
+			"y":4478,
+			"width":520,
+			"height":480
+		},
+		{
+			"id":"c3b5b2ddf96e9eeb",
+			"type":"text",
+			"text":"## **ACTION** \n\n> To copy the text of the pact and show it to Lhamo to transcribe it ",
+			"styleAttributes":{
+				"border":null
+			},
+			"x":2416,
+			"y":4619,
+			"width":520,
+			"height":190
+		},
+		{
+			"id":"594a41dec2996718",
+			"type":"text",
+			"text":"#### **How to break the pact?** ",
+			"styleAttributes":{
+				"border":null,
+				"shape":"diamond",
+				"textAlign":"center"
+			},
+			"x":3176,
+			"y":4544,
+			"width":360,
+			"height":340
+		},
+		{
+			"id":"df87a7938ec87fa1",
+			"type":"text",
+			"text":"## **ACTION** \n\n> Burn the giant tree",
+			"styleAttributes":{
+				"border":null
+			},
+			"x":3836,
+			"y":4393,
+			"width":520,
+			"height":190
+		},
+		{
+			"id":"01c0ea9124ec123c",
+			"type":"text",
+			"text":"## **ACTION** \n\n> Give Lhamo her father’s brand\n\nLhamo decides to make a sacrifice",
+			"styleAttributes":{
+				"border":null
+			},
+			"x":3836,
+			"y":4863,
+			"width":520,
+			"height":190
+		},
+		{
+			"id":"796b4fa70accc636",
+			"type":"text",
+			"text":"## **CONSEQUENCES** \n\n> 1. The path and bridge are free now\n> 2. **Dolma dies**\n> 3. Lhamo shares a Bon-script transcribe instruction she created for the protagonist\n\nIn the ACT II the protagonist meets a family with a newborn girl who is very curious about everything around her",
+			"styleAttributes":{
+				"border":null
+			},
+			"x":4656,
+			"y":4137,
+			"width":520,
+			"height":446
+		},
+		{
+			"id":"bddc4d864d52778e",
+			"type":"text",
+			"text":"## **CONSEQUENCES** \n\n> 1. The path and bridge are free now\n> 2. **Lhamo dies**\n> 3. Lhamo shares a Bon-script transcribe instruction she created for the protagonist\n\nПридумать последствия во втором акте",
+			"styleAttributes":{
+				"border":null
+			},
+			"x":4656,
+			"y":4863,
+			"width":520,
+			"height":380
 		}
 	],
 	"edges":[
