@@ -226,20 +226,9 @@
 			"color":"#ffffff"
 		},
 		{
-			"id":"d9be31aa20eef88b",
-			"type":"text",
-			"text":"#### Additional knowledge\nMysterious stones with unclear inscriptions that the hero cannot decipher",
-			"styleAttributes":{},
-			"x":-1444,
-			"y":6339,
-			"width":481,
-			"height":221,
-			"color":"#ffffff"
-		},
-		{
 			"id":"d43806a4cf656321",
 			"type":"text",
-			"text":"## **NPC** \n==**Lhamo**==\n\n---\n+ She’s a nomad with her family\n+ Accompanied by a herd of red-horned yaks\n+ Kind and considerate \n+ Wary of strangers \n",
+			"text":"## **NPC** \n#### ==**Lhamo**==\n\n---\n+ She’s a nomad with her family\n+ Accompanied by a herd of red-horned yaks\n+ Kind and considerate \n+ Wary of strangers \n",
 			"styleAttributes":{
 				"border":null
 			},
@@ -247,19 +236,6 @@
 			"y":4494,
 			"width":480,
 			"height":440
-		},
-		{
-			"id":"2a596216dc9ab48a",
-			"type":"text",
-			"text":"## **NPC** \n**Tenzin**\n\n---\n+ He’s the Khenpo of the monastery\n+ His character is based on 14th Dalai Lama\n+ He’s concerned about the black roots\n+ He’s trying to repair the bridge \n",
-			"styleAttributes":{
-				"border":null,
-				"shape":null
-			},
-			"x":696,
-			"y":4514,
-			"width":520,
-			"height":400
 		},
 		{
 			"id":"27638e12dca8cb13",
@@ -347,6 +323,30 @@
 			"y":4863,
 			"width":520,
 			"height":380
+		},
+		{
+			"id":"2a596216dc9ab48a",
+			"type":"text",
+			"text":"## **NPC** \n**Tenzin**\n\n---\n+ He’s the Khenpo of the monastery\n+ His character is based on 14th Dalai Lama\n+ He’s concerned about the black roots\n+ He’s trying to repair the bridge \n",
+			"styleAttributes":{
+				"border":null,
+				"shape":null
+			},
+			"x":696,
+			"y":4514,
+			"width":520,
+			"height":400
+		},
+		{
+			"id":"d9be31aa20eef88b",
+			"type":"text",
+			"text":"#### Additional knowledge\nMysterious stones with unclear inscriptions that the hero cannot decipher",
+			"styleAttributes":{},
+			"x":-1400,
+			"y":6335,
+			"width":481,
+			"height":221,
+			"color":"#ffffff"
 		}
 	],
 	"edges":[
