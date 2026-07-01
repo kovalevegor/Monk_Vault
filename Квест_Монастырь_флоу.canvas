@@ -96,13 +96,13 @@
 		{"id":"th_idea","type":"text","text":"**Управляющая идея**\n\nУдержать силой против отпустить. A — отпускание, B — накопление.","x":6840,"y":-205,"width":300,"height":90,"color":"2"},
 		{"id":"ch_flag","type":"text","text":"**Флаг исхода → Акт II**\n\nЗаписывает «расторгнуто/сожжено»; определяет эпилог и финал.","x":7600,"y":-205,"width":300,"height":90,"color":"3"},
 		{"id":"open_A","type":"text","text":"**Открытый шов: удержание (A)**\n\nЗащита Лхамо — навык или таймер, не решено.","x":7220,"y":-643,"width":300,"height":90,"color":"3"},
-		{"id":"ev_vision","type":"text","text":"**◆ Видение отца / бегство**\n\n«Отец» велит идти к монастырю.","x":-20,"y":-75,"width":300,"height":150,"color":"#34567a"},
-		{"id":"prot","type":"text","text":"**Протагонист**\n\nЮноша без памяти; управляет корнями; не знает, что Опустошённый.","x":-520,"y":-110,"width":300,"height":210},
-		{"id":"goal_father","type":"text","text":"**Цель: найти отца**\n\nВидение велит идти к монастырю. Внешний двигатель.","x":-20,"y":-335,"width":300,"height":175},
 		{"id":"k1","type":"text","text":"**К1: управляю корнями**\n\nПервое знание о силе.","x":380,"y":-325,"width":300,"height":130,"color":"5"},
 		{"id":"loc_cliff","type":"text","text":"**Утёс (камнепад)**\n\nМесто пробуждения силы.","x":380,"y":115,"width":300,"height":125},
-		{"id":"h_father_hollow","type":"text","text":"**Отец стал Опустошённым**\n\nОтдал карму ради договора и исчез.","x":-520,"y":-921,"width":300,"height":197,"color":"6"},
-		{"id":"h_father","type":"text","text":"**«Отец» = дух матери**\n\nВидение носит облик отца, но это дух матери-защитницы.","x":-520,"y":-652,"width":300,"height":171,"color":"6"}
+		{"id":"ev_vision","type":"text","text":"# Видение отца / бегство из цитадели\n\n---\n\nДух, являясь герою в облике отца, указывает путь протагонисту, чтобы найти его. ","x":-120,"y":-108,"width":400,"height":303,"color":"#34567a"},
+		{"id":"h_father_hollow","type":"text","text":"##### Отец стал Опустошенным\n\nОн отдал карму супруге через черный лотос ради договора с духом Бон и исчез","x":-110,"y":-1100,"width":360,"height":197,"color":"6"},
+		{"id":"h_father","type":"text","text":"##### Видение отца = дух \n\nДух способен носить облик отца. Он использует его для влияния на протагониста ради достижения собственных целей","x":-110,"y":-840,"width":360,"height":211,"color":"6"},
+		{"id":"goal_father","type":"text","text":"**Цель: найти отца**\n\nВидение велит идти к монастырю. ","x":-80,"y":-455,"width":300,"height":175},
+		{"id":"prot","type":"text","text":"**Протагонист**\n\nЮноша просыпается после ритуала в черной цитадели","x":-700,"y":-472,"width":360,"height":210}
 	],
 	"edges":[
 		{"id":"e0","fromNode":"ev_vision","fromSide":"right","toNode":"ev_rockfall","toSide":"left"},
@@ -126,7 +126,7 @@
 		{"id":"e19","fromNode":"ev_choice","fromSide":"bottom","toNode":"ev_branchB","toSide":"top"},
 		{"id":"e20","fromNode":"ev_branchA","fromSide":"bottom","toNode":"ev_epilogue","toSide":"top"},
 		{"id":"e21","fromNode":"ev_branchB","fromSide":"top","toNode":"ev_epilogue","toSide":"bottom"},
-		{"id":"e22","toFloating":false,"fromNode":"prot","fromSide":"top","toNode":"goal_father","toSide":"left","label":"движим"},
+		{"id":"e22","toFloating":false,"fromFloating":false,"fromNode":"prot","fromSide":"right","toNode":"goal_father","toSide":"left","label":"движим"},
 		{"id":"e23","fromNode":"lhamo","fromSide":"bottom","toNode":"goal_lhamo","toSide":"top","label":"мотив"},
 		{"id":"e24","fromNode":"dolma","fromSide":"top","toNode":"goal_dolma","toSide":"bottom","label":"мотив"},
 		{"id":"e25","fromNode":"tenzin","fromSide":"bottom","toNode":"goal_tenzin","toSide":"top","label":"мотив"},
