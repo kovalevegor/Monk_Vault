@@ -1,6 +1,5 @@
 {
 	"nodes":[
-		{"id":"ev_rockfall","type":"text","text":"**◆ Камнепад**\n\nКорни ловят глыбы в форме рук героя.","x":380,"y":-40,"width":300,"height":80,"color":"#34567a"},
 		{"id":"ev_ravine","type":"text","text":"**◆ Расселина: карма + переправа**\n\nИзвлекает карму (видение), обретает заметность, наводит мост.","x":760,"y":-45,"width":300,"height":90,"color":"#34567a"},
 		{"id":"ev_meet_lhamo","type":"text","text":"**◆ Встреча с Лхамо**\n\nЛхамо видит героя, ставит две цели, обещает ключ.","x":1140,"y":-45,"width":300,"height":90,"color":"#34567a"},
 		{"id":"ev_read_column","type":"text","text":"**◆ Чтение колонны**\n\nЦена расторжения — всё оставшееся дыхание.","x":1520,"y":-45,"width":300,"height":90,"color":"#34567a"},
@@ -96,13 +95,15 @@
 		{"id":"th_idea","type":"text","text":"**Управляющая идея**\n\nУдержать силой против отпустить. A — отпускание, B — накопление.","x":6840,"y":-205,"width":300,"height":90,"color":"2"},
 		{"id":"ch_flag","type":"text","text":"**Флаг исхода → Акт II**\n\nЗаписывает «расторгнуто/сожжено»; определяет эпилог и финал.","x":7600,"y":-205,"width":300,"height":90,"color":"3"},
 		{"id":"open_A","type":"text","text":"**Открытый шов: удержание (A)**\n\nЗащита Лхамо — навык или таймер, не решено.","x":7220,"y":-643,"width":300,"height":90,"color":"3"},
-		{"id":"k1","type":"text","text":"**К1: управляю корнями**\n\nПервое знание о силе.","x":380,"y":-325,"width":300,"height":130,"color":"5"},
-		{"id":"loc_cliff","type":"text","text":"**Утёс (камнепад)**\n\nМесто пробуждения силы.","x":380,"y":115,"width":300,"height":125},
-		{"id":"ev_vision","type":"text","text":"# Видение отца / бегство из цитадели\n\n---\n\nДух, являясь герою в облике отца, указывает путь протагонисту, чтобы найти его. ","x":-120,"y":-108,"width":400,"height":303,"color":"#34567a"},
-		{"id":"h_father_hollow","type":"text","text":"##### Отец стал Опустошенным\n\nОн отдал карму супруге через черный лотос ради договора с духом Бон и исчез","x":-110,"y":-1100,"width":360,"height":197,"color":"6"},
-		{"id":"h_father","type":"text","text":"##### Видение отца = дух \n\nДух способен носить облик отца. Он использует его для влияния на протагониста ради достижения собственных целей","x":-110,"y":-840,"width":360,"height":211,"color":"6"},
-		{"id":"goal_father","type":"text","text":"**Цель: найти отца**\n\nВидение велит идти к монастырю. ","x":-80,"y":-455,"width":300,"height":175},
-		{"id":"prot","type":"text","text":"**Протагонист**\n\nЮноша просыпается после ритуала в черной цитадели","x":-700,"y":-472,"width":360,"height":210}
+		{"id":"k1","type":"text","text":"**🗝️управляю корнями**\n\nПервое знание о силе.","x":380,"y":-325,"width":300,"height":130,"color":"5"},
+		{"id":"h_father_hollow","type":"text","text":"##### Отец стал Опустошенным\n\nОтец отдал карму супруге через черный лотос, чтобы уравнять плату за договор","x":-390,"y":-1189,"width":360,"height":197,"color":"6"},
+		{"id":"h_father","type":"text","text":"##### Видение отца = дух \n\nДух способен носить облик тех, чью карму поглотил. Он использует образ отца для влияния на протагониста ради достижения собственных целей","x":-390,"y":-929,"width":360,"height":240,"color":"6"},
+		{"id":"goal_father","type":"text","text":"**Цель найти отца**\n\nВидение направляет героя к месту обитания духа, выдавая его за место нахождение отца героя. ","x":-70,"y":-461,"width":300,"height":212},
+		{"id":"prot","type":"text","text":"### Протагонист\n\nЮноша просыпается после ритуала в черной цитадели. Культисты «содрали» с него карму и провели ритуал переселения сознания одного из них в тело героя. Дух защитил сознание юноши. ","x":-850,"y":-461,"width":520,"height":212},
+		{"id":"ev_vision","type":"text","text":"# Видение отца / бегство из цитадели\n\n---\n\nДух, являясь герою в облике отца, указывает ему путь, чтобы найти отца, то есть духа, но протагонист не знает о подмене. ","x":-120,"y":-164,"width":400,"height":329,"color":"#34567a"},
+		{"id":"9fc4e3f617d3e079","type":"text","text":"##### Договор с духом\n\nРодители протагониста заключают договор с духом, чтобы тот оберегал их ребенка","x":-390,"y":-1440,"width":360,"height":197,"color":"6"},
+		{"id":"loc_cliff","type":"text","text":"**Утёс (камнепад)**\n\nМесто пробуждения силы.","x":380,"y":283,"width":300,"height":125},
+		{"id":"ev_rockfall","type":"text","text":"**◆ Камнепад**\n\nКорни ловят глыбы в форме рук героя.","x":380,"y":-77,"width":300,"height":155,"color":"#34567a"}
 	],
 	"edges":[
 		{"id":"e0","fromNode":"ev_vision","fromSide":"right","toNode":"ev_rockfall","toSide":"left"},
@@ -139,7 +140,7 @@
 		{"id":"e32","fromNode":"pilgrim","fromSide":"top","toNode":"mech_extract","toSide":"bottom","label":"первый узел"},
 		{"id":"e33","fromNode":"dolma","fromSide":"top","toNode":"mech_prana","toSide":"bottom","label":"жертва"},
 		{"id":"e34","fromNode":"dolma","fromSide":"top","toNode":"mech_lamps","toSide":"bottom","label":"объект"},
-		{"id":"e35","fromNode":"goal_father","fromSide":"bottom","toNode":"ev_vision","toSide":"top","label":"задаёт"},
+		{"id":"e35","fromNode":"goal_father","fromSide":"bottom","toNode":"ev_vision","toSide":"top","label":"задает"},
 		{"id":"e37","fromNode":"goal_path","fromSide":"right","toNode":"ev_choice","toSide":"left","label":"разрешается"},
 		{"id":"e38","fromNode":"loc_tree","fromSide":"left","toNode":"goal_path","toSide":"right","label":"преграда"},
 		{"id":"e39","fromNode":"goal_lhamo","fromSide":"right","toNode":"ev_tenzin_teach","toSide":"left","label":"ветка лекарства"},
@@ -269,7 +270,29 @@
 		{"id":"e164","fromNode":"ev_gorge","fromSide":"right","toNode":"loc_burnt","toSide":"left","label":"открывает"},
 		{"id":"e165","fromNode":"ev_gorge","fromSide":"right","toNode":"loc_grotto","toSide":"left","label":"открывает"},
 		{"id":"e166","fromNode":"ev_gorge","fromSide":"right","toNode":"loc_tree","toSide":"left","label":"открывает"},
-		{"id":"e167","fromFloating":false,"fromNode":"mother","fromSide":"right","toNode":"ev_epilogue","toSide":"left","label":"A: дарит яка"}
+		{"id":"e167","fromFloating":false,"fromNode":"mother","fromSide":"right","toNode":"ev_epilogue","toSide":"left","label":"A: дарит яка"},
+		{
+			"id":"f08b3dbda9a80417",
+			"styleAttributes":{
+				"pathfindingMethod":null,
+				"path":null
+			},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"h_father",
+			"fromSide":"bottom",
+			"toNode":"prot",
+			"toSide":"top"
+		},
+		{
+			"id":"99d4f5386fc47cf7",
+			"styleAttributes":{"pathfindingMethod":"a-star"},
+			"toFloating":false,
+			"fromNode":"9fc4e3f617d3e079",
+			"fromSide":"bottom",
+			"toNode":"h_father_hollow",
+			"toSide":"top"
+		}
 	],
 	"metadata":{
 		"version":"1.0-1.0",
